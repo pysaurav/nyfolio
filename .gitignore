@@ -1,2 +1,6 @@
-*/.hugo_build.lock
-hugo_build.lock
+.idea
+**/themes/
+exampleSite/public/
+exampleSite/resources/
+*.lock
+public
