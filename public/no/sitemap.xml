@@ -2,52 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:63251/no/categories/</loc>
+    <loc>//localhost:51273/no/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:63251/categories/"
+                href="//localhost:51273/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="no"
-                href="//localhost:63251/no/categories/"
+                href="//localhost:51273/no/categories/"
                 />
   </url><url>
-    <loc>//localhost:63251/no/</loc>
+    <loc>//localhost:51273/no/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:63251/"
+                href="//localhost:51273/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="no"
-                href="//localhost:63251/no/"
+                href="//localhost:51273/no/"
                 />
   </url><url>
-    <loc>//localhost:63251/no/series/</loc>
+    <loc>//localhost:51273/no/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:63251/series/"
+                href="//localhost:51273/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="no"
-                href="//localhost:63251/no/series/"
+                href="//localhost:51273/no/series/"
                 />
   </url><url>
-    <loc>//localhost:63251/no/tags/</loc>
+    <loc>//localhost:51273/no/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:63251/tags/"
+                href="//localhost:51273/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="no"
-                href="//localhost:63251/no/tags/"
+                href="//localhost:51273/no/tags/"
                 />
   </url>
 </urlset>

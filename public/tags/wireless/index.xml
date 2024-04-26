@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wireless on Saurav</title>
-    <link>//localhost:63251/tags/wireless/</link>
+    <link>//localhost:51273/tags/wireless/</link>
     <description>Recent content in Wireless on Saurav</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 17 Jul 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:63251/tags/wireless/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:51273/tags/wireless/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Nikola Tesla and Wireless Electricity</title>
-      <link>//localhost:63251/random/tesla-and-wireless-electricity/</link>
+      <link>//localhost:51273/random/tesla-and-wireless-electricity/</link>
       <pubDate>Fri, 17 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>//localhost:63251/random/tesla-and-wireless-electricity/</guid>
+      <guid>//localhost:51273/random/tesla-and-wireless-electricity/</guid>
       <description>&amp;ldquo;Why dont we have wireless electricity yet?&amp;rdquo;, the question bother me now.&#xA;Nikola Tesla, a fascinating name and an enigmatic person. Until recently, I always portrayed him as a mad scientist and a thinker. A man sitting under the wWrdenclyffe Tower always popped up in my brain. Apart from other things, he is ubdoubtedly one of the greatest minds the world has witnessed since its inception.&#xA;He patented an idea in 1905 titled &amp;ldquo;ART OF TRANSMITTING ELECTRICITY THROUGH NATURAL MEDIUM&amp;rdquo;, more than a century later we still have not been able to implement it.</description>
     </item>
   </channel>

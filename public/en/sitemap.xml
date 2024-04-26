@@ -2,183 +2,183 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:63251/tags/ai/</loc>
+    <loc>//localhost:51273/tags/ai/</loc>
     <lastmod>2020-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:63251/series/ai/</loc>
+    <loc>//localhost:51273/series/ai/</loc>
     <lastmod>2020-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:63251/tags/future/</loc>
+    <loc>//localhost:51273/tags/future/</loc>
     <lastmod>2020-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:63251/tags/human/</loc>
+    <loc>//localhost:51273/tags/human/</loc>
     <lastmod>2020-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:63251/posts/</loc>
+    <loc>//localhost:51273/posts/</loc>
     <lastmod>2020-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:63251/</loc>
-    <lastmod>2020-09-08T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="no"
-                href="//localhost:63251/no/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="//localhost:63251/"
-                />
-  </url><url>
-    <loc>//localhost:63251/series/</loc>
+    <loc>//localhost:51273/</loc>
     <lastmod>2020-09-08T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="no"
-                href="//localhost:63251/no/series/"
+                href="//localhost:51273/no/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:63251/series/"
+                href="//localhost:51273/"
                 />
   </url><url>
-    <loc>//localhost:63251/tags/</loc>
+    <loc>//localhost:51273/series/</loc>
     <lastmod>2020-09-08T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="no"
-                href="//localhost:63251/no/tags/"
+                href="//localhost:51273/no/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:63251/tags/"
+                href="//localhost:51273/series/"
                 />
   </url><url>
-    <loc>//localhost:63251/posts/evolving-ai-on-human-race/</loc>
+    <loc>//localhost:51273/tags/</loc>
+    <lastmod>2020-09-08T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="no"
+                href="//localhost:51273/no/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:51273/tags/"
+                />
+  </url><url>
+    <loc>//localhost:51273/posts/evolving-ai-on-human-race/</loc>
     <lastmod>2020-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:63251/tags/data/</loc>
+    <loc>//localhost:51273/tags/data/</loc>
     <lastmod>2020-08-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:63251/tags/optimized/</loc>
+    <loc>//localhost:51273/tags/optimized/</loc>
     <lastmod>2020-08-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:63251/tags/pandas/</loc>
+    <loc>//localhost:51273/tags/pandas/</loc>
     <lastmod>2020-08-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:63251/posts/pandas-optimized-snippets/</loc>
+    <loc>//localhost:51273/posts/pandas-optimized-snippets/</loc>
     <lastmod>2020-08-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:63251/tags/da-vinci/</loc>
+    <loc>//localhost:51273/tags/da-vinci/</loc>
     <lastmod>2020-08-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:63251/tags/nikola/</loc>
+    <loc>//localhost:51273/tags/nikola/</loc>
     <lastmod>2020-08-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:63251/random/polyphasic-sleep-cycle/</loc>
+    <loc>//localhost:51273/random/polyphasic-sleep-cycle/</loc>
     <lastmod>2020-08-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:63251/random/</loc>
+    <loc>//localhost:51273/random/</loc>
     <lastmod>2020-08-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:63251/tags/sleep/</loc>
+    <loc>//localhost:51273/tags/sleep/</loc>
     <lastmod>2020-08-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:63251/tags/tesla/</loc>
+    <loc>//localhost:51273/tags/tesla/</loc>
     <lastmod>2020-08-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:63251/tags/electricity/</loc>
+    <loc>//localhost:51273/tags/electricity/</loc>
     <lastmod>2020-07-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:63251/random/tesla-and-wireless-electricity/</loc>
+    <loc>//localhost:51273/random/tesla-and-wireless-electricity/</loc>
     <lastmod>2020-07-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:63251/tags/wiet/</loc>
+    <loc>//localhost:51273/tags/wiet/</loc>
     <lastmod>2020-07-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:63251/tags/wireless/</loc>
+    <loc>//localhost:51273/tags/wireless/</loc>
     <lastmod>2020-07-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:63251/tags/classification/</loc>
+    <loc>//localhost:51273/tags/classification/</loc>
     <lastmod>2020-05-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:63251/tags/knn/</loc>
+    <loc>//localhost:51273/tags/knn/</loc>
     <lastmod>2020-05-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:63251/posts/knn-classifier-from-scratch/</loc>
+    <loc>//localhost:51273/posts/knn-classifier-from-scratch/</loc>
     <lastmod>2020-05-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:63251/tags/machinelearning/</loc>
+    <loc>//localhost:51273/tags/machinelearning/</loc>
     <lastmod>2020-05-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:63251/categories/blog/</loc>
+    <loc>//localhost:51273/categories/blog/</loc>
     <lastmod>2019-08-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:63251/categories/</loc>
+    <loc>//localhost:51273/categories/</loc>
     <lastmod>2019-08-20T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="no"
-                href="//localhost:63251/no/categories/"
+                href="//localhost:51273/no/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:63251/categories/"
+                href="//localhost:51273/categories/"
                 />
   </url><url>
-    <loc>//localhost:63251/posts/virtualenv-virtualenvwrapper-in-ubuntu/</loc>
+    <loc>//localhost:51273/posts/virtualenv-virtualenvwrapper-in-ubuntu/</loc>
     <lastmod>2019-08-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:63251/tags/hugo/</loc>
+    <loc>//localhost:51273/tags/hugo/</loc>
     <lastmod>2019-08-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:63251/tags/i18n/</loc>
+    <loc>//localhost:51273/tags/i18n/</loc>
     <lastmod>2019-08-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:63251/tags/blockchain/</loc>
+    <loc>//localhost:51273/tags/blockchain/</loc>
     <lastmod>2019-06-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:63251/series/blockchain/</loc>
+    <loc>//localhost:51273/series/blockchain/</loc>
     <lastmod>2019-06-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:63251/tags/column/</loc>
+    <loc>//localhost:51273/tags/column/</loc>
     <lastmod>2019-06-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:63251/random/introduction-to-the-column/</loc>
+    <loc>//localhost:51273/random/introduction-to-the-column/</loc>
     <lastmod>2019-06-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:63251/tags/random/</loc>
+    <loc>//localhost:51273/tags/random/</loc>
     <lastmod>2019-06-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:63251/tags/social/</loc>
+    <loc>//localhost:51273/tags/social/</loc>
     <lastmod>2019-06-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:63251/tags/uncertainties/</loc>
+    <loc>//localhost:51273/tags/uncertainties/</loc>
     <lastmod>2019-06-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:63251/posts/unfolding-blockchains-social-aspects/</loc>
+    <loc>//localhost:51273/posts/unfolding-blockchains-social-aspects/</loc>
     <lastmod>2019-06-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:63251/tags/weekly/</loc>
+    <loc>//localhost:51273/tags/weekly/</loc>
     <lastmod>2019-06-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:63251/about/</loc>
+    <loc>//localhost:51273/about/</loc>
   </url><url>
-    <loc>//localhost:63251/contact/</loc>
+    <loc>//localhost:51273/contact/</loc>
   </url><url>
-    <loc>//localhost:63251/contact/</loc>
+    <loc>//localhost:51273/contact/</loc>
   </url><url>
-    <loc>//localhost:63251/snippets/first/</loc>
+    <loc>//localhost:51273/snippets/first/</loc>
   </url><url>
-    <loc>//localhost:63251/projects/</loc>
+    <loc>//localhost:51273/projects/</loc>
   </url><url>
-    <loc>//localhost:63251/projects/</loc>
+    <loc>//localhost:51273/projects/</loc>
   </url><url>
-    <loc>//localhost:63251/snippets/second/</loc>
+    <loc>//localhost:51273/snippets/second/</loc>
   </url><url>
-    <loc>//localhost:63251/snippets/</loc>
+    <loc>//localhost:51273/snippets/</loc>
   </url>
 </urlset>
