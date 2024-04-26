@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on Saurav</title>
+    <link>//localhost:63251/tags/hugo/</link>
+    <description>Recent content in Hugo on Saurav</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 20 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:63251/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Configuring virtualenv and virtualenvwrapper in ubuntu</title>
+      <link>//localhost:63251/posts/virtualenv-virtualenvwrapper-in-ubuntu/</link>
+      <pubDate>Tue, 20 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>//localhost:63251/posts/virtualenv-virtualenvwrapper-in-ubuntu/</guid>
+      <description>We all must have faced the situation where version of our packages don&amp;rsquo;t match and takes up hours of our time to get solved. A virtual Environment is an isolates working environment of a Python project so that other projects aren&amp;rsquo;t hampered.&#xA;So, lets start the configuration with virtualenv. To install it via pip&#xA;$ pip install virtualenv See, it is as simple as that. Now, you can work in an isolated python3.</description>
+    </item>
+  </channel>
+</rss>
