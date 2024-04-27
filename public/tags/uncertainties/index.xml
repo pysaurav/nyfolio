@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Uncertainties on Saurav | Profile</title><link>/tags/uncertainties/</link><description>Recent content in Uncertainties on Saurav | Profile</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 22 Jun 2019 00:00:00 +0000</lastBuildDate><atom:link href="/tags/uncertainties/index.xml" rel="self" type="application/rss+xml"/><item><title>Unfolding blockchain’s social aspects</title><link>/blogs/unfolding-blockchains-social-aspects/</link><pubDate>Sat, 22 Jun 2019 00:00:00 +0000</pubDate><guid>/blogs/unfolding-blockchains-social-aspects/</guid><description>With Facebook’s Libra, the crypto-community around the globe has yet more things to talk about, if not be hopeful. The crypto-currencies as well as its underlying blockchain technology together is slowly yet steadily penetrating human life, at least in terms of things to keep an eye on. The same way e-commerce websites were making buzz in the 90’s. If you don’t know already, blockchain is just an open, distributed ledger that hosts growing list of records linked together in such a way that they are append-only and can’t be modified or tampered with.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Uncertainties on Saurav | Profile</title>
+    <link>https://saurav.no/tags/uncertainties/</link>
+    <description>Recent content in Uncertainties on Saurav | Profile</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 22 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://saurav.no/tags/uncertainties/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unfolding blockchain’s social aspects</title>
+      <link>https://saurav.no/blogs/unfolding-blockchains-social-aspects/</link>
+      <pubDate>Sat, 22 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>https://saurav.no/blogs/unfolding-blockchains-social-aspects/</guid>
+      <description>With Facebook’s Libra, the crypto-community around the globe has yet more things to talk about, if not be hopeful. The crypto-currencies as well as its underlying blockchain technology together is slowly yet steadily penetrating human life, at least in terms of things to keep an eye on. The same way e-commerce websites were making buzz in the 90’s. If you don’t know already, blockchain is just an open, distributed ledger that hosts growing list of records linked together in such a way that they are append-only and can’t be modified or tampered with.</description>
+    </item>
+  </channel>
+</rss>

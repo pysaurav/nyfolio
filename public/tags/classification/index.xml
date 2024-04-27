@@ -1,2 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Classification on Saurav | Profile</title><link>/tags/classification/</link><description>Recent content in Classification on Saurav | Profile</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 10 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/classification/index.xml" rel="self" type="application/rss+xml"/><item><title>KNN Classifier Implementing from Scratch</title><link>/blogs/knn-classifier-from-scratch/</link><pubDate>Sun, 10 May 2020 00:00:00 +0000</pubDate><guid>/blogs/knn-classifier-from-scratch/</guid><description>KNN is a supervised algorithm that classifies new cases based on similarity measure from its neighbors.
-Please refer the notebook below for its detailed implementation and understanding from scratch.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Classification on Saurav | Profile</title>
+    <link>https://saurav.no/tags/classification/</link>
+    <description>Recent content in Classification on Saurav | Profile</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 10 May 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://saurav.no/tags/classification/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>KNN Classifier Implementing from Scratch</title>
+      <link>https://saurav.no/blogs/knn-classifier-from-scratch/</link>
+      <pubDate>Sun, 10 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://saurav.no/blogs/knn-classifier-from-scratch/</guid>
+      <description>KNN is a supervised algorithm that classifies new cases based on similarity measure from its neighbors.&#xA;Please refer the notebook below for its detailed implementation and understanding from scratch. </description>
+    </item>
+  </channel>
+</rss>
