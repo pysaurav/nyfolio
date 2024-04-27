@@ -1,0 +1,30 @@
+plugins = []
+headers = []
+redirects = []
+
+[functions]
+
+[functions."*"]
+
+[build]
+publish = "/Users/enigmax/Documents/work/self/nyfolio/public"
+publishOrigin = "config"
+command = "hugo"
+commandOrigin = "config"
+
+[build.environment]
+HUGO_VERSION = "0.92.0"
+HUGO_ENV = "production"
+HUGO_ENABLEGITINFO = "true"
+
+[build.processing]
+
+[build.processing.css]
+
+[build.processing.html]
+
+[build.processing.images]
+
+[build.processing.js]
+
+[build.services]
