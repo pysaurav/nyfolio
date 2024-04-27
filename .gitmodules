@@ -2,6 +2,3 @@
 	path = themes/hugo-profile
 	url = https://github.com/gurusabarish/hugo-profile.git
 
-[submodule "themes/hugo-coder"]
-	path = themes/hugo-coder
-	url = https://github.com/luizdepra/hugo-coder.git
