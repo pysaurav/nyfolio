@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data on Saurav | Profile</title>
-    <link>https://saurav.no/tags/data/</link>
+    <link>http://localhost:59223/tags/data/</link>
     <description>Recent content in Data on Saurav | Profile</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 19 Aug 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://saurav.no/tags/data/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:59223/tags/data/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pandas Optimized Code Snippets</title>
-      <link>https://saurav.no/blogs/pandas-optimized-snippets/</link>
+      <link>http://localhost:59223/blogs/pandas-optimized-snippets/</link>
       <pubDate>Wed, 19 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>https://saurav.no/blogs/pandas-optimized-snippets/</guid>
+      <guid>http://localhost:59223/blogs/pandas-optimized-snippets/</guid>
       <description>Here are the pandas snippets that will make data cleaning easier. These will make the process easier and faster.&#xA;#Note: I will gradually update the list&#xA;1. To clean numbers and text inside brackets from a column using regex import pandas as pd import re df = pd.DataFrame({&amp;#34;Code&amp;#34;:[&amp;#34;EE&amp;#34;,&amp;#34;NP&amp;#34;,&amp;#34;USA&amp;#34;,&amp;#34;ES&amp;#34;],&amp;#34;Country&amp;#34;:[&amp;#34;Estonia{EE}&amp;#34;,&amp;#34;Nepal123&amp;#34;,&amp;#34;United States Of America(USA)&amp;#34;,&amp;#34;Spain&amp;#34;]}) df df[&amp;#39;Country&amp;#39;] = df[&amp;#39;Country&amp;#39;].replace(r&amp;#34;[\(\[\{].*?[\)\]\}]|[^a-zA-Z ]&amp;#34;, &amp;#34;&amp;#34;,regex=True) df </description>
     </item>
   </channel>

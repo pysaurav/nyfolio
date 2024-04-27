@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>KNN on Saurav | Profile</title>
-    <link>https://saurav.no/tags/knn/</link>
+    <link>http://localhost:59223/tags/knn/</link>
     <description>Recent content in KNN on Saurav | Profile</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 10 May 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://saurav.no/tags/knn/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:59223/tags/knn/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>KNN Classifier Implementing from Scratch</title>
-      <link>https://saurav.no/blogs/knn-classifier-from-scratch/</link>
+      <link>http://localhost:59223/blogs/knn-classifier-from-scratch/</link>
       <pubDate>Sun, 10 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://saurav.no/blogs/knn-classifier-from-scratch/</guid>
+      <guid>http://localhost:59223/blogs/knn-classifier-from-scratch/</guid>
       <description>KNN is a supervised algorithm that classifies new cases based on similarity measure from its neighbors.&#xA;Please refer the notebook below for its detailed implementation and understanding from scratch. </description>
     </item>
   </channel>

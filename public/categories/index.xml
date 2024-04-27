@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Saurav | Profile</title>
-    <link>https://saurav.no/categories/</link>
+    <link>http://localhost:59223/categories/</link>
     <description>Recent content in Categories on Saurav | Profile</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 20 Aug 2019 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://saurav.no/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:59223/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blog</title>
-      <link>https://saurav.no/categories/blog/</link>
+      <link>http://localhost:59223/categories/blog/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://saurav.no/categories/blog/</guid>
+      <guid>http://localhost:59223/categories/blog/</guid>
       <description></description>
     </item>
   </channel>

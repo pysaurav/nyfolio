@@ -2,134 +2,134 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://saurav.no/tags/ai/</loc>
+    <loc>http://localhost:59223/tags/ai/</loc>
     <lastmod>2020-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saurav.no/blogs/</loc>
+    <loc>http://localhost:59223/blogs/</loc>
     <lastmod>2020-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saurav.no/tags/future/</loc>
+    <loc>http://localhost:59223/tags/future/</loc>
     <lastmod>2020-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saurav.no/tags/human/</loc>
+    <loc>http://localhost:59223/tags/human/</loc>
     <lastmod>2020-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saurav.no/</loc>
+    <loc>http://localhost:59223/</loc>
     <lastmod>2020-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saurav.no/tags/</loc>
+    <loc>http://localhost:59223/tags/</loc>
     <lastmod>2020-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saurav.no/blogs/evolving-ai-on-human-race/</loc>
+    <loc>http://localhost:59223/blogs/evolving-ai-on-human-race/</loc>
     <lastmod>2020-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saurav.no/tags/data/</loc>
+    <loc>http://localhost:59223/tags/data/</loc>
     <lastmod>2020-08-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saurav.no/tags/optimized/</loc>
+    <loc>http://localhost:59223/tags/optimized/</loc>
     <lastmod>2020-08-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saurav.no/tags/pandas/</loc>
+    <loc>http://localhost:59223/tags/pandas/</loc>
     <lastmod>2020-08-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saurav.no/blogs/pandas-optimized-snippets/</loc>
+    <loc>http://localhost:59223/blogs/pandas-optimized-snippets/</loc>
     <lastmod>2020-08-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saurav.no/curiosity/</loc>
+    <loc>http://localhost:59223/curiosity/</loc>
     <lastmod>2020-08-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saurav.no/tags/da-vinci/</loc>
+    <loc>http://localhost:59223/tags/da-vinci/</loc>
     <lastmod>2020-08-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saurav.no/tags/nikola/</loc>
+    <loc>http://localhost:59223/tags/nikola/</loc>
     <lastmod>2020-08-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saurav.no/curiosity/polyphasic-sleep-cycle/</loc>
+    <loc>http://localhost:59223/curiosity/polyphasic-sleep-cycle/</loc>
     <lastmod>2020-08-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saurav.no/tags/sleep/</loc>
+    <loc>http://localhost:59223/tags/sleep/</loc>
     <lastmod>2020-08-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saurav.no/tags/tesla/</loc>
+    <loc>http://localhost:59223/tags/tesla/</loc>
     <lastmod>2020-08-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saurav.no/tags/electricity/</loc>
+    <loc>http://localhost:59223/tags/electricity/</loc>
     <lastmod>2020-07-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saurav.no/curiosity/tesla-and-wireless-electricity/</loc>
+    <loc>http://localhost:59223/curiosity/tesla-and-wireless-electricity/</loc>
     <lastmod>2020-07-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saurav.no/tags/wiet/</loc>
+    <loc>http://localhost:59223/tags/wiet/</loc>
     <lastmod>2020-07-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saurav.no/tags/wireless/</loc>
+    <loc>http://localhost:59223/tags/wireless/</loc>
     <lastmod>2020-07-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saurav.no/tags/classification/</loc>
+    <loc>http://localhost:59223/tags/classification/</loc>
     <lastmod>2020-05-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saurav.no/tags/knn/</loc>
+    <loc>http://localhost:59223/tags/knn/</loc>
     <lastmod>2020-05-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saurav.no/blogs/knn-classifier-from-scratch/</loc>
+    <loc>http://localhost:59223/blogs/knn-classifier-from-scratch/</loc>
     <lastmod>2020-05-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saurav.no/tags/machinelearning/</loc>
+    <loc>http://localhost:59223/tags/machinelearning/</loc>
     <lastmod>2020-05-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saurav.no/categories/blog/</loc>
+    <loc>http://localhost:59223/categories/blog/</loc>
     <lastmod>2019-08-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saurav.no/categories/</loc>
+    <loc>http://localhost:59223/categories/</loc>
     <lastmod>2019-08-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saurav.no/blogs/virtualenv-virtualenvwrapper-in-ubuntu/</loc>
+    <loc>http://localhost:59223/blogs/virtualenv-virtualenvwrapper-in-ubuntu/</loc>
     <lastmod>2019-08-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saurav.no/tags/hugo/</loc>
+    <loc>http://localhost:59223/tags/hugo/</loc>
     <lastmod>2019-08-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saurav.no/tags/i18n/</loc>
+    <loc>http://localhost:59223/tags/i18n/</loc>
     <lastmod>2019-08-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saurav.no/tags/blockchain/</loc>
+    <loc>http://localhost:59223/tags/blockchain/</loc>
     <lastmod>2019-06-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saurav.no/tags/column/</loc>
+    <loc>http://localhost:59223/tags/column/</loc>
     <lastmod>2019-06-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saurav.no/curiosity/introduction-to-the-column/</loc>
+    <loc>http://localhost:59223/curiosity/introduction-to-the-column/</loc>
     <lastmod>2019-06-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saurav.no/tags/random/</loc>
+    <loc>http://localhost:59223/tags/random/</loc>
     <lastmod>2019-06-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saurav.no/tags/social/</loc>
+    <loc>http://localhost:59223/tags/social/</loc>
     <lastmod>2019-06-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saurav.no/tags/uncertainties/</loc>
+    <loc>http://localhost:59223/tags/uncertainties/</loc>
     <lastmod>2019-06-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saurav.no/blogs/unfolding-blockchains-social-aspects/</loc>
+    <loc>http://localhost:59223/blogs/unfolding-blockchains-social-aspects/</loc>
     <lastmod>2019-06-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saurav.no/tags/weekly/</loc>
+    <loc>http://localhost:59223/tags/weekly/</loc>
     <lastmod>2019-06-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saurav.no/about/</loc>
+    <loc>http://localhost:59223/about/</loc>
   </url><url>
-    <loc>https://saurav.no/contact/</loc>
+    <loc>http://localhost:59223/contact/</loc>
   </url><url>
-    <loc>https://saurav.no/contact/</loc>
+    <loc>http://localhost:59223/contact/</loc>
   </url><url>
-    <loc>https://saurav.no/snippets/first/</loc>
+    <loc>http://localhost:59223/snippets/first/</loc>
   </url><url>
-    <loc>https://saurav.no/projects/</loc>
+    <loc>http://localhost:59223/projects/</loc>
   </url><url>
-    <loc>https://saurav.no/projects/</loc>
+    <loc>http://localhost:59223/projects/</loc>
   </url><url>
-    <loc>https://saurav.no/snippets/second/</loc>
+    <loc>http://localhost:59223/snippets/second/</loc>
   </url><url>
-    <loc>https://saurav.no/snippets/</loc>
+    <loc>http://localhost:59223/snippets/</loc>
   </url>
 </urlset>
