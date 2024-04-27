@@ -1,3 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Snippets on Saurav | Profile</title><link>/snippets/</link><description>Recent content in Snippets on Saurav | Profile</description><generator>Hugo</generator><language>en-us</language><atom:link href="/snippets/index.xml" rel="self" type="application/rss+xml"/><item><title>First snippet</title><link>/snippets/first/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/snippets/first/</guid><description>This content is in snippets/first/index.md
-pwd</description></item><item><title>Second snippet</title><link>/snippets/second/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/snippets/second/</guid><description>This content is in snippets/second/index.md
-ls -la</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Snippets on Saurav | Profile</title>
+    <link>//localhost:53050/snippets/</link>
+    <description>Recent content in Snippets on Saurav | Profile</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="//localhost:53050/snippets/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First snippet</title>
+      <link>//localhost:53050/snippets/first/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:53050/snippets/first/</guid>
+      <description>This content is in snippets/first/index.md&#xA;pwd </description>
+    </item>
+    <item>
+      <title>Second snippet</title>
+      <link>//localhost:53050/snippets/second/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:53050/snippets/second/</guid>
+      <description>This content is in snippets/second/index.md&#xA;ls -la </description>
+    </item>
+  </channel>
+</rss>
