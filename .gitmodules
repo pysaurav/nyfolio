@@ -1,6 +1,7 @@
+
 [submodule "themes/hugo-profile"]
 	path = themes/hugo-profile
-	url = https://github.com/gurusabarish/hugo-profile.git
+	url = https://github.com/pysaurav/hugo-profile.git
 
 [submodule "themes/hugo-coder"]
 	path = themes/hugo-coder
