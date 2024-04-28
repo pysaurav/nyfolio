@@ -2,115 +2,115 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Saurav | Profile</title>
-    <link>//localhost:53050/</link>
+    <link>//localhost:64963/</link>
     <description>Recent content on Saurav | Profile</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 08 Sep 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:53050/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:64963/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Term Paper: Impact of evolving Artificial Intelligence on the Human Race</title>
-      <link>//localhost:53050/blogs/evolving-ai-on-human-race/</link>
+      <link>//localhost:64963/blogs/evolving-ai-on-human-race/</link>
       <pubDate>Tue, 08 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>//localhost:53050/blogs/evolving-ai-on-human-race/</guid>
+      <guid>//localhost:64963/blogs/evolving-ai-on-human-race/</guid>
       <description>Impact of evolving Artificial Intelligence on the future of Human Race Saurav Pandey&#xA;September 4, 2020 Abstract Artificial Intelligence is evolving rapidly and it is bound to impact the way we humans live. This paper attempts to highlight our general perception towards Artificial Intelligence and how it is changing with time. It investigates the history, status quo and future of artificial intelligence and pinpoints its association with human life. The article cites several sources such as research papers, journal articles and domain leaders.</description>
     </item>
     <item>
       <title>Pandas Optimized Code Snippets</title>
-      <link>//localhost:53050/blogs/pandas-optimized-snippets/</link>
+      <link>//localhost:64963/blogs/pandas-optimized-snippets/</link>
       <pubDate>Wed, 19 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>//localhost:53050/blogs/pandas-optimized-snippets/</guid>
+      <guid>//localhost:64963/blogs/pandas-optimized-snippets/</guid>
       <description>Here are the pandas snippets that will make data cleaning easier. These will make the process easier and faster.&#xA;#Note: I will gradually update the list&#xA;1. To clean numbers and text inside brackets from a column using regex import pandas as pd import re df = pd.DataFrame({&amp;#34;Code&amp;#34;:[&amp;#34;EE&amp;#34;,&amp;#34;NP&amp;#34;,&amp;#34;USA&amp;#34;,&amp;#34;ES&amp;#34;],&amp;#34;Country&amp;#34;:[&amp;#34;Estonia{EE}&amp;#34;,&amp;#34;Nepal123&amp;#34;,&amp;#34;United States Of America(USA)&amp;#34;,&amp;#34;Spain&amp;#34;]}) df df[&amp;#39;Country&amp;#39;] = df[&amp;#39;Country&amp;#39;].replace(r&amp;#34;[\(\[\{].*?[\)\]\}]|[^a-zA-Z ]&amp;#34;, &amp;#34;&amp;#34;,regex=True) df </description>
     </item>
     <item>
       <title>Polyphasic Sleep Cycle</title>
-      <link>//localhost:53050/curiosity/polyphasic-sleep-cycle/</link>
+      <link>//localhost:64963/curiosity/polyphasic-sleep-cycle/</link>
       <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>//localhost:53050/curiosity/polyphasic-sleep-cycle/</guid>
+      <guid>//localhost:64963/curiosity/polyphasic-sleep-cycle/</guid>
       <description>Sleep is one of our basic daily needs. We all spend a substantial amount of our lifetime sleeping. For a common person, one-third of our overall lifetime is spent sleeping. While it is a physical need and keeps us healthy, too much sleep can be a barrier in our productivity and what we can achieve in our life.&#xA;Most of us people follow the traditional eight hours of monophasic sleep cycle.</description>
     </item>
     <item>
       <title>Nikola Tesla and Wireless Electricity</title>
-      <link>//localhost:53050/curiosity/tesla-and-wireless-electricity/</link>
+      <link>//localhost:64963/curiosity/tesla-and-wireless-electricity/</link>
       <pubDate>Fri, 17 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>//localhost:53050/curiosity/tesla-and-wireless-electricity/</guid>
+      <guid>//localhost:64963/curiosity/tesla-and-wireless-electricity/</guid>
       <description>&amp;ldquo;Why dont we have wireless electricity yet?&amp;rdquo;, the question bother me now.&#xA;Nikola Tesla, a fascinating name and an enigmatic person. Until recently, I always portrayed him as a mad scientist and a thinker. A man sitting under the wWrdenclyffe Tower always popped up in my brain. Apart from other things, he is ubdoubtedly one of the greatest minds the world has witnessed since its inception.&#xA;He patented an idea in 1905 titled &amp;ldquo;ART OF TRANSMITTING ELECTRICITY THROUGH NATURAL MEDIUM&amp;rdquo;, more than a century later we still have not been able to implement it.</description>
     </item>
     <item>
       <title>KNN Classifier Implementing from Scratch</title>
-      <link>//localhost:53050/blogs/knn-classifier-from-scratch/</link>
+      <link>//localhost:64963/blogs/knn-classifier-from-scratch/</link>
       <pubDate>Sun, 10 May 2020 00:00:00 +0000</pubDate>
-      <guid>//localhost:53050/blogs/knn-classifier-from-scratch/</guid>
+      <guid>//localhost:64963/blogs/knn-classifier-from-scratch/</guid>
       <description>KNN is a supervised algorithm that classifies new cases based on similarity measure from its neighbors.&#xA;Please refer the notebook below for its detailed implementation and understanding from scratch. </description>
     </item>
     <item>
       <title>Configuring virtualenv and virtualenvwrapper in ubuntu</title>
-      <link>//localhost:53050/blogs/virtualenv-virtualenvwrapper-in-ubuntu/</link>
+      <link>//localhost:64963/blogs/virtualenv-virtualenvwrapper-in-ubuntu/</link>
       <pubDate>Tue, 20 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>//localhost:53050/blogs/virtualenv-virtualenvwrapper-in-ubuntu/</guid>
+      <guid>//localhost:64963/blogs/virtualenv-virtualenvwrapper-in-ubuntu/</guid>
       <description>We all must have faced the situation where version of our packages don&amp;rsquo;t match and takes up hours of our time to get solved. A virtual Environment is an isolates working environment of a Python project so that other projects aren&amp;rsquo;t hampered.&#xA;So, lets start the configuration with virtualenv. To install it via pip&#xA;$ pip install virtualenv See, it is as simple as that. Now, you can work in an isolated python3.</description>
     </item>
     <item>
       <title>Introduction- Random column</title>
-      <link>//localhost:53050/curiosity/introduction-to-the-column/</link>
+      <link>//localhost:64963/curiosity/introduction-to-the-column/</link>
       <pubDate>Sat, 22 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>//localhost:53050/curiosity/introduction-to-the-column/</guid>
+      <guid>//localhost:64963/curiosity/introduction-to-the-column/</guid>
       <description>This post marks the initiation of the random column. I am starting this column to share interesting concepts, ideas and mostly my perceptions towards things. This will be a weekly column.</description>
     </item>
     <item>
       <title>Unfolding blockchain’s social aspects</title>
-      <link>//localhost:53050/blogs/unfolding-blockchains-social-aspects/</link>
+      <link>//localhost:64963/blogs/unfolding-blockchains-social-aspects/</link>
       <pubDate>Sat, 22 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>//localhost:53050/blogs/unfolding-blockchains-social-aspects/</guid>
+      <guid>//localhost:64963/blogs/unfolding-blockchains-social-aspects/</guid>
       <description>With Facebook’s Libra, the crypto-community around the globe has yet more things to talk about, if not be hopeful. The crypto-currencies as well as its underlying blockchain technology together is slowly yet steadily penetrating human life, at least in terms of things to keep an eye on. The same way e-commerce websites were making buzz in the 90’s. If you don’t know already, blockchain is just an open, distributed ledger that hosts growing list of records linked together in such a way that they are append-only and can’t be modified or tampered with.</description>
     </item>
     <item>
       <title>About Me</title>
-      <link>//localhost:53050/about/</link>
+      <link>//localhost:64963/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:53050/about/</guid>
+      <guid>//localhost:64963/about/</guid>
       <description>Passionate problem solver with startup instincts backed by stable 6+ years experience of crafting tech solutions. Driven by love for decoding patterns within the data and improving processes, I have experience of scoping and implementing solutions for B2B real-estate, D2C music sharing apps and evolving ML and blockchain some of which leading a team.&#xA;Skilled in Python, multiple backend frameworks, AWS, ETL, Machine Learning, along with being a Registered Scrum Master™, I am equally efficient in leadership and communication.</description>
     </item>
     <item>
       <title>Contact</title>
-      <link>//localhost:53050/contact/</link>
+      <link>//localhost:64963/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:53050/contact/</guid>
+      <guid>//localhost:64963/contact/</guid>
       <description>Follow me, @pysaurav.</description>
     </item>
     <item>
       <title>Contact</title>
-      <link>//localhost:53050/contact/</link>
+      <link>//localhost:64963/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:53050/contact/</guid>
+      <guid>//localhost:64963/contact/</guid>
       <description>Find me @pysaurav.</description>
     </item>
     <item>
       <title>First snippet</title>
-      <link>//localhost:53050/snippets/first/</link>
+      <link>//localhost:64963/snippets/first/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:53050/snippets/first/</guid>
+      <guid>//localhost:64963/snippets/first/</guid>
       <description>This content is in snippets/first/index.md&#xA;pwd </description>
     </item>
     <item>
       <title>Projects</title>
-      <link>//localhost:53050/projects/</link>
+      <link>//localhost:64963/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:53050/projects/</guid>
+      <guid>//localhost:64963/projects/</guid>
       <description>Nothing to see here&amp;hellip; Move along!</description>
     </item>
     <item>
       <title>Projetos</title>
-      <link>//localhost:53050/projects/</link>
+      <link>//localhost:64963/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:53050/projects/</guid>
+      <guid>//localhost:64963/projects/</guid>
       <description>Em construção&amp;hellip; Aguarde!</description>
     </item>
     <item>
       <title>Second snippet</title>
-      <link>//localhost:53050/snippets/second/</link>
+      <link>//localhost:64963/snippets/second/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:53050/snippets/second/</guid>
+      <guid>//localhost:64963/snippets/second/</guid>
       <description>This content is in snippets/second/index.md&#xA;ls -la </description>
     </item>
   </channel>

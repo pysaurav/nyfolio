@@ -2,178 +2,178 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Saurav | Profile</title>
-    <link>//localhost:53050/tags/</link>
+    <link>//localhost:64963/tags/</link>
     <description>Recent content in Tags on Saurav | Profile</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 08 Sep 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:53050/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:64963/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI</title>
-      <link>//localhost:53050/tags/ai/</link>
+      <link>//localhost:64963/tags/ai/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:53050/tags/ai/</guid>
+      <guid>//localhost:64963/tags/ai/</guid>
       <description></description>
     </item>
     <item>
       <title>Future</title>
-      <link>//localhost:53050/tags/future/</link>
+      <link>//localhost:64963/tags/future/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:53050/tags/future/</guid>
+      <guid>//localhost:64963/tags/future/</guid>
       <description></description>
     </item>
     <item>
       <title>Human</title>
-      <link>//localhost:53050/tags/human/</link>
+      <link>//localhost:64963/tags/human/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:53050/tags/human/</guid>
+      <guid>//localhost:64963/tags/human/</guid>
       <description></description>
     </item>
     <item>
       <title>Data</title>
-      <link>//localhost:53050/tags/data/</link>
+      <link>//localhost:64963/tags/data/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:53050/tags/data/</guid>
+      <guid>//localhost:64963/tags/data/</guid>
       <description></description>
     </item>
     <item>
       <title>Optimized</title>
-      <link>//localhost:53050/tags/optimized/</link>
+      <link>//localhost:64963/tags/optimized/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:53050/tags/optimized/</guid>
+      <guid>//localhost:64963/tags/optimized/</guid>
       <description></description>
     </item>
     <item>
       <title>Pandas</title>
-      <link>//localhost:53050/tags/pandas/</link>
+      <link>//localhost:64963/tags/pandas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:53050/tags/pandas/</guid>
+      <guid>//localhost:64963/tags/pandas/</guid>
       <description></description>
     </item>
     <item>
       <title>Da Vinci</title>
-      <link>//localhost:53050/tags/da-vinci/</link>
+      <link>//localhost:64963/tags/da-vinci/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:53050/tags/da-vinci/</guid>
+      <guid>//localhost:64963/tags/da-vinci/</guid>
       <description></description>
     </item>
     <item>
       <title>Nikola</title>
-      <link>//localhost:53050/tags/nikola/</link>
+      <link>//localhost:64963/tags/nikola/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:53050/tags/nikola/</guid>
+      <guid>//localhost:64963/tags/nikola/</guid>
       <description></description>
     </item>
     <item>
       <title>Sleep</title>
-      <link>//localhost:53050/tags/sleep/</link>
+      <link>//localhost:64963/tags/sleep/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:53050/tags/sleep/</guid>
+      <guid>//localhost:64963/tags/sleep/</guid>
       <description></description>
     </item>
     <item>
       <title>Tesla</title>
-      <link>//localhost:53050/tags/tesla/</link>
+      <link>//localhost:64963/tags/tesla/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:53050/tags/tesla/</guid>
+      <guid>//localhost:64963/tags/tesla/</guid>
       <description></description>
     </item>
     <item>
       <title>Electricity</title>
-      <link>//localhost:53050/tags/electricity/</link>
+      <link>//localhost:64963/tags/electricity/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:53050/tags/electricity/</guid>
+      <guid>//localhost:64963/tags/electricity/</guid>
       <description></description>
     </item>
     <item>
       <title>Wiet</title>
-      <link>//localhost:53050/tags/wiet/</link>
+      <link>//localhost:64963/tags/wiet/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:53050/tags/wiet/</guid>
+      <guid>//localhost:64963/tags/wiet/</guid>
       <description></description>
     </item>
     <item>
       <title>Wireless</title>
-      <link>//localhost:53050/tags/wireless/</link>
+      <link>//localhost:64963/tags/wireless/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:53050/tags/wireless/</guid>
+      <guid>//localhost:64963/tags/wireless/</guid>
       <description></description>
     </item>
     <item>
       <title>Classification</title>
-      <link>//localhost:53050/tags/classification/</link>
+      <link>//localhost:64963/tags/classification/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:53050/tags/classification/</guid>
+      <guid>//localhost:64963/tags/classification/</guid>
       <description></description>
     </item>
     <item>
       <title>KNN</title>
-      <link>//localhost:53050/tags/knn/</link>
+      <link>//localhost:64963/tags/knn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:53050/tags/knn/</guid>
+      <guid>//localhost:64963/tags/knn/</guid>
       <description></description>
     </item>
     <item>
       <title>MachineLearning</title>
-      <link>//localhost:53050/tags/machinelearning/</link>
+      <link>//localhost:64963/tags/machinelearning/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:53050/tags/machinelearning/</guid>
+      <guid>//localhost:64963/tags/machinelearning/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo</title>
-      <link>//localhost:53050/tags/hugo/</link>
+      <link>//localhost:64963/tags/hugo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:53050/tags/hugo/</guid>
+      <guid>//localhost:64963/tags/hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>I18n</title>
-      <link>//localhost:53050/tags/i18n/</link>
+      <link>//localhost:64963/tags/i18n/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:53050/tags/i18n/</guid>
+      <guid>//localhost:64963/tags/i18n/</guid>
       <description></description>
     </item>
     <item>
       <title>Blockchain</title>
-      <link>//localhost:53050/tags/blockchain/</link>
+      <link>//localhost:64963/tags/blockchain/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:53050/tags/blockchain/</guid>
+      <guid>//localhost:64963/tags/blockchain/</guid>
       <description></description>
     </item>
     <item>
       <title>Column</title>
-      <link>//localhost:53050/tags/column/</link>
+      <link>//localhost:64963/tags/column/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:53050/tags/column/</guid>
+      <guid>//localhost:64963/tags/column/</guid>
       <description></description>
     </item>
     <item>
       <title>Random</title>
-      <link>//localhost:53050/tags/random/</link>
+      <link>//localhost:64963/tags/random/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:53050/tags/random/</guid>
+      <guid>//localhost:64963/tags/random/</guid>
       <description></description>
     </item>
     <item>
       <title>Social</title>
-      <link>//localhost:53050/tags/social/</link>
+      <link>//localhost:64963/tags/social/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:53050/tags/social/</guid>
+      <guid>//localhost:64963/tags/social/</guid>
       <description></description>
     </item>
     <item>
       <title>Uncertainties</title>
-      <link>//localhost:53050/tags/uncertainties/</link>
+      <link>//localhost:64963/tags/uncertainties/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:53050/tags/uncertainties/</guid>
+      <guid>//localhost:64963/tags/uncertainties/</guid>
       <description></description>
     </item>
     <item>
       <title>Weekly</title>
-      <link>//localhost:53050/tags/weekly/</link>
+      <link>//localhost:64963/tags/weekly/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:53050/tags/weekly/</guid>
+      <guid>//localhost:64963/tags/weekly/</guid>
       <description></description>
     </item>
   </channel>
