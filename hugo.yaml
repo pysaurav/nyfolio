@@ -4,14 +4,14 @@ languageCode: "en-us"
 title: "Saurav | Profile"
 theme: hugo-profile
 
-outputs:
-  home:
-    - "HTML"
-    - "RSS"
-    - "JSON"
-  page:
-    - "HTML"
-    - "RSS"
+# outputs:
+#   home:
+#     - "HTML"
+#     - "RSS"
+#     - "JSON"
+#   page:
+#     - "HTML"
+#     - "RSS"
 
 Paginate: 3
 enableRobotsTXT: true
