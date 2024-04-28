@@ -2,134 +2,134 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:53050/tags/ai/</loc>
+    <loc>//localhost:64963/tags/ai/</loc>
     <lastmod>2020-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:53050/blogs/</loc>
+    <loc>//localhost:64963/blogs/</loc>
     <lastmod>2020-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:53050/tags/future/</loc>
+    <loc>//localhost:64963/tags/future/</loc>
     <lastmod>2020-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:53050/tags/human/</loc>
+    <loc>//localhost:64963/tags/human/</loc>
     <lastmod>2020-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:53050/</loc>
+    <loc>//localhost:64963/</loc>
     <lastmod>2020-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:53050/tags/</loc>
+    <loc>//localhost:64963/tags/</loc>
     <lastmod>2020-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:53050/blogs/evolving-ai-on-human-race/</loc>
+    <loc>//localhost:64963/blogs/evolving-ai-on-human-race/</loc>
     <lastmod>2020-09-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:53050/tags/data/</loc>
+    <loc>//localhost:64963/tags/data/</loc>
     <lastmod>2020-08-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:53050/tags/optimized/</loc>
+    <loc>//localhost:64963/tags/optimized/</loc>
     <lastmod>2020-08-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:53050/tags/pandas/</loc>
+    <loc>//localhost:64963/tags/pandas/</loc>
     <lastmod>2020-08-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:53050/blogs/pandas-optimized-snippets/</loc>
+    <loc>//localhost:64963/blogs/pandas-optimized-snippets/</loc>
     <lastmod>2020-08-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:53050/curiosity/</loc>
+    <loc>//localhost:64963/curiosity/</loc>
     <lastmod>2020-08-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:53050/tags/da-vinci/</loc>
+    <loc>//localhost:64963/tags/da-vinci/</loc>
     <lastmod>2020-08-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:53050/tags/nikola/</loc>
+    <loc>//localhost:64963/tags/nikola/</loc>
     <lastmod>2020-08-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:53050/curiosity/polyphasic-sleep-cycle/</loc>
+    <loc>//localhost:64963/curiosity/polyphasic-sleep-cycle/</loc>
     <lastmod>2020-08-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:53050/tags/sleep/</loc>
+    <loc>//localhost:64963/tags/sleep/</loc>
     <lastmod>2020-08-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:53050/tags/tesla/</loc>
+    <loc>//localhost:64963/tags/tesla/</loc>
     <lastmod>2020-08-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:53050/tags/electricity/</loc>
+    <loc>//localhost:64963/tags/electricity/</loc>
     <lastmod>2020-07-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:53050/curiosity/tesla-and-wireless-electricity/</loc>
+    <loc>//localhost:64963/curiosity/tesla-and-wireless-electricity/</loc>
     <lastmod>2020-07-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:53050/tags/wiet/</loc>
+    <loc>//localhost:64963/tags/wiet/</loc>
     <lastmod>2020-07-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:53050/tags/wireless/</loc>
+    <loc>//localhost:64963/tags/wireless/</loc>
     <lastmod>2020-07-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:53050/tags/classification/</loc>
+    <loc>//localhost:64963/tags/classification/</loc>
     <lastmod>2020-05-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:53050/tags/knn/</loc>
+    <loc>//localhost:64963/tags/knn/</loc>
     <lastmod>2020-05-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:53050/blogs/knn-classifier-from-scratch/</loc>
+    <loc>//localhost:64963/blogs/knn-classifier-from-scratch/</loc>
     <lastmod>2020-05-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:53050/tags/machinelearning/</loc>
+    <loc>//localhost:64963/tags/machinelearning/</loc>
     <lastmod>2020-05-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:53050/categories/blog/</loc>
+    <loc>//localhost:64963/categories/blog/</loc>
     <lastmod>2019-08-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:53050/categories/</loc>
+    <loc>//localhost:64963/categories/</loc>
     <lastmod>2019-08-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:53050/blogs/virtualenv-virtualenvwrapper-in-ubuntu/</loc>
+    <loc>//localhost:64963/blogs/virtualenv-virtualenvwrapper-in-ubuntu/</loc>
     <lastmod>2019-08-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:53050/tags/hugo/</loc>
+    <loc>//localhost:64963/tags/hugo/</loc>
     <lastmod>2019-08-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:53050/tags/i18n/</loc>
+    <loc>//localhost:64963/tags/i18n/</loc>
     <lastmod>2019-08-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:53050/tags/blockchain/</loc>
+    <loc>//localhost:64963/tags/blockchain/</loc>
     <lastmod>2019-06-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:53050/tags/column/</loc>
+    <loc>//localhost:64963/tags/column/</loc>
     <lastmod>2019-06-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:53050/curiosity/introduction-to-the-column/</loc>
+    <loc>//localhost:64963/curiosity/introduction-to-the-column/</loc>
     <lastmod>2019-06-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:53050/tags/random/</loc>
+    <loc>//localhost:64963/tags/random/</loc>
     <lastmod>2019-06-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:53050/tags/social/</loc>
+    <loc>//localhost:64963/tags/social/</loc>
     <lastmod>2019-06-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:53050/tags/uncertainties/</loc>
+    <loc>//localhost:64963/tags/uncertainties/</loc>
     <lastmod>2019-06-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:53050/blogs/unfolding-blockchains-social-aspects/</loc>
+    <loc>//localhost:64963/blogs/unfolding-blockchains-social-aspects/</loc>
     <lastmod>2019-06-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:53050/tags/weekly/</loc>
+    <loc>//localhost:64963/tags/weekly/</loc>
     <lastmod>2019-06-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:53050/about/</loc>
+    <loc>//localhost:64963/about/</loc>
   </url><url>
-    <loc>//localhost:53050/contact/</loc>
+    <loc>//localhost:64963/contact/</loc>
   </url><url>
-    <loc>//localhost:53050/contact/</loc>
+    <loc>//localhost:64963/contact/</loc>
   </url><url>
-    <loc>//localhost:53050/snippets/first/</loc>
+    <loc>//localhost:64963/snippets/first/</loc>
   </url><url>
-    <loc>//localhost:53050/projects/</loc>
+    <loc>//localhost:64963/projects/</loc>
   </url><url>
-    <loc>//localhost:53050/projects/</loc>
+    <loc>//localhost:64963/projects/</loc>
   </url><url>
-    <loc>//localhost:53050/snippets/second/</loc>
+    <loc>//localhost:64963/snippets/second/</loc>
   </url><url>
-    <loc>//localhost:53050/snippets/</loc>
+    <loc>//localhost:64963/snippets/</loc>
   </url>
 </urlset>

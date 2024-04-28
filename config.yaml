@@ -132,6 +132,7 @@ params:
     intro: "Hi, I am"
     title: "Saurav."
     subtitle: "Senior Backend Engineer | Data Science Professional"
+    location: "Oslo, Norway"
     content: "Purpose is to find patterns in Technology, Life and Nature.<br> Always up for finding better solutions. "
     image: /images/pp_11.jpeg
     bottomImage:
