@@ -6,6 +6,11 @@ tags = ["AI", "culture", "future"]
 categories = []
 series = ["Business", "Opinion"]
 +++
+<div align="right">
+
+![Summary](/library/future_bui/theme.png)
+
+</div>
 
 Over the past two decades, only **1,501** new offices and business buildings have emerged in the Norwegian market. I was surprised to find this number to be so low. In an era of rapid technological advancement one might expect a boom in commercial construction but this stagnant growth seemed as an anomaly compelling me to dive deeper into finding underlying factors.
 
