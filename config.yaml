@@ -26,15 +26,20 @@ markup:
 Menus:
   main:
     - identifier: blog
-      name: Blog
-      title: Blog posts
-      url: /blogs
+      name: Tech 
+      title: Tech blog
+      url: /tech
       weight: 1
+    - identifier: product
+      name: Product 
+      title: Product blog
+      url: /product
+      weight: 2
     - identifier: curiosity
       name: Curiosity
       title: Blog posts
       url: /curiosity
-      weight: 1
+      weight: 3
     #- identifier: gallery
     #  name: Gallery
     #  title: Blog posts
