@@ -26,11 +26,11 @@ AI systems are categorized by risk levels from minimal to unacceptable where eac
 
 ### Prohibited Practises (Article 5)
 The act bans specific AI uses such as indiscriminate social scoring and manipulation of human behavior, protecting personal rights and preventing misuse.
-Bans AI systems that scrape facial images from the internet or CCTV footage
-Manipulates people’s decision or exploit their vulnerabilities
-Classify people based on their social behavior or personal traits
-Infer motions in workplace or educational institutions 
-Categorize people based on their biometric data
+- Bans AI systems that scrape facial images from the internet or CCTV footage
+- Manipulates people’s decision or exploit their vulnerabilities
+- Classify people based on their social behavior or personal traits
+- Infer motions in workplace or educational institutions 
+- Categorize people based on their biometric data
 
 ### Transparency (Article 50)
 Companies must inform users when they are interacting with an AI system. AI systems that create synthetic content (like deep fakes) must mark their outputs as artificially generated.
@@ -39,13 +39,14 @@ Companies must inform users when they are interacting with an AI system. AI syst
 Non-compliance with certain AI practices can result in fines up to 35 million EUR or 7% of a company's annual turnover. 
 
 However there are few exemptions for followings:
-being systems used for military, defense or national security purposes,
-Purpose of scientific research and development
-Research, testing or development activity regarding AI models prior to their being placed on market
+- being systems used for military, defense or national security purposes,
+- Purpose of scientific research and development
+- Research, testing or development activity regarding AI models prior to their being placed on market
 personal or non-professional activities 
-AI systems released under free and open-source licenses unless they are high-risk.
+- AI systems released under free and open-source licenses unless they are high-risk.
 
 ## Reflections
+My opinions on the regulations as of today are:
 
 - The AI Act primarily concentrates on high-risk AI systems to ensure robust regulatory stand and seems to have softer sides on low risk categories probably with an intent to promote innovation.
 - Limited focus on emerging domains like generative AI suggests further enhancements may be needed to pace up with the evolving scenario and where the market is heading.
