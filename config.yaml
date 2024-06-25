@@ -156,7 +156,7 @@ params:
         - icon: fa-brands fa-linkedin fa-2x
           url: https://www.linkedin.com/in/pysaurav/
         - icon: fa-brands fa-x-twitter fa-2x
-          url: https://example.com
+          url: https://x.com/pysaurav
         - icon: fa-brands fa-medium fa-2x
           url: https://medium.com/@pysaurav
         - icon: fa fa-envelope fa-2x
