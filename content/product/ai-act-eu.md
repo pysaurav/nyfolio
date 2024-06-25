@@ -53,6 +53,7 @@ Personally how I perceived the act and my **opinions** on it, as of today, are:
 - The AI Act is softer in terms of penalties for **startups and SMEs** and looks to promote innovation.
 - Since most of the applications in banking institutions like credit scoring are labeled as high-risk systems, we can expect to see **slower adoption** in those domains.
 
+Reference for this post and official EU AI Act can be found here: [The AI Act Explorer](https://artificialintelligenceact.eu/ai-act-explorer/)
 
 <br>
 <br>
