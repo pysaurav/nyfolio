@@ -6,12 +6,12 @@
     <description>Recent content in AI on Saurav | Profile</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>When AI Learns to Discriminate: The surprising way Norwegian hiring algorithms amplify bias</title>
       <link>//localhost:1313/posts/ai-discrimination-norwegian-hiring/</link>
-      <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 16 Nov 2025 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/posts/ai-discrimination-norwegian-hiring/</guid>
       <description>Despite Norway&amp;rsquo;s egalitarian reputation, research shows ample evidence of discrimination against ethnic minorities in hiring processes. Last month, I was reviewing hiring data from a Norwegian tech company when something caught my attention. Their AI powered recruitment system had been running for three years, and the gender gap in interview callbacks had grown from 12% to 23%. I expected the gap to narrow over time as the model learned from more data.</description>
     </item>
