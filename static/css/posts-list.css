@@ -170,6 +170,12 @@
 
 /* Responsive: stack on mobile */
 @media (max-width: 767.98px) {
+    /* Allow row to wrap on mobile */
+    #list-page .card .row,
+    #recent-posts .card .row {
+        flex-wrap: wrap !important;
+    }
+    
     #list-page .card .post-image-col,
     #recent-posts .card .post-image-col {
         width: 100%;
@@ -187,6 +193,19 @@
         border-radius: .75rem .75rem 0 0;
         max-height: 200px;
         min-height: 200px;
+    }
+    
+    /* Ensure content column is visible */
+    #list-page .card .post-content-col,
+    #recent-posts .card .post-content-col {
+        width: 100%;
+        flex: 1 1 100%;
+    }
+    
+    /* Add padding to card body on mobile */
+    #list-page .card .card-body,
+    #recent-posts .card .card-body {
+        padding: 1rem !important;
     }
 }
 

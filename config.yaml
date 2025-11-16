@@ -131,7 +131,7 @@ params:
   hero:
     enable: true
     intro: "Hi, I am"
-    title: "saurav."
+    title: "Saurav"
     subtitle: "I Find the Patterns That Make Systems Scale"
     location: "Oslo, Norway"
     content: "8 years architecting backend systems, AI solutions and products that grow. I decode what's blocking your operations, whether it's tech architecture, process design and build systems that scale sustainably.<br><br><strong>Backend Engineering • AI Implementation • Product Development</strong>"
