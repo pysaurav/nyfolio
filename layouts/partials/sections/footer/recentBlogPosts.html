@@ -12,52 +12,50 @@
     <div class="row">
         {{ range $recentPosts }}
         <div class="col-12 my-3">
-            <div class="card h-100">
-                <div class="row g-0">
-                    {{ $image := "" }}
-                    {{ if .Params.image }}
-                        {{ $image = .Params.image }}
-                    {{ else if .Params.featuredImage }}
-                        {{ $image = .Params.featuredImage }}
-                    {{ else }}
-                        {{ $content := .RawContent }}
-                        {{ if not $content }}
-                            {{ $content = .Content }}
+            <a href="{{ .RelPermalink }}" class="text-decoration-none card-link-wrapper">
+                <div class="card h-100">
+                    <div class="row g-0">
+                        {{ $image := "" }}
+                        {{ if .Params.image }}
+                            {{ $image = .Params.image }}
+                        {{ else if .Params.featuredImage }}
+                            {{ $image = .Params.featuredImage }}
+                        {{ else }}
+                            {{ $content := .RawContent }}
+                            {{ if not $content }}
+                                {{ $content = .Content }}
+                            {{ end }}
+                            {{ $imgPattern := `!\[[^\]]*\]\(([^)]+)\)` }}
+                            {{ $matches := findRE $imgPattern $content }}
+                            {{ if $matches }}
+                                {{ $fullMatch := index $matches 0 }}
+                                {{ $image = replaceRE `!\[[^\]]*\]\(` "" $fullMatch }}
+                                {{ $image = replaceRE `\)` "" $image }}
+                                {{ $image = trim $image " " }}
+                                {{ $image = replace $image "\n" "" }}
+                                {{ $image = replace $image "\r" "" }}
+                            {{ end }}
                         {{ end }}
-                        {{ $imgPattern := `!\[[^\]]*\]\(([^)]+)\)` }}
-                        {{ $matches := findRE $imgPattern $content }}
-                        {{ if $matches }}
-                            {{ $fullMatch := index $matches 0 }}
-                            {{ $image = replaceRE `!\[[^\]]*\]\(` "" $fullMatch }}
-                            {{ $image = replaceRE `\)` "" $image }}
-                            {{ $image = trim $image " " }}
-                            {{ $image = replace $image "\n" "" }}
-                            {{ $image = replace $image "\r" "" }}
-                        {{ end }}
-                    {{ end }}
-                    {{ if and (not (.Site.Params.footer.recentPosts.disableFeaturedImage | default false)) $image }}
-                    <div class="post-image-col">
-                        <a href="{{ .RelPermalink }}">
+                        {{ if and (not (.Site.Params.footer.recentPosts.disableFeaturedImage | default false)) $image }}
+                        <div class="post-image-col">
                             <img src="{{ $image | relURL }}" class="card-img-left" alt="{{ .Title }}">
-                        </a>
-                    </div>
-                    {{ end }}
-                    <div class="{{ if and (not (.Site.Params.footer.recentPosts.disableFeaturedImage | default false)) $image }}post-content-col{{ else }}col-12{{ end }}">
-                        <div class="card-body bg-transparent p-4 shadow-sm h-100 d-flex flex-column">
-                            <a href="{{ .RelPermalink }}" class="primary-font card-title text-decoration-none">
-                                <h5 class="card-title bg-transparent mb-3" title="{{ .Title }}">{{ .Title }}</h5>
-                            </a>
-                            <div class="card-text secondary-font flex-grow-1">
-                                <p class="mb-3">{{ .Summary | truncate 200}}</p>
-                            </div>
-                            <div class="mt-auto post-footer bg-transparent pt-3 border-top" style="padding-left: 0; padding-right: 0;">
-                                <span class="float-start bg-transparent">{{ .Date.Format (.Site.Params.datesFormat.articleRecent | default "January 2, 2006") }}</span>
-                                <a href="{{ .RelPermalink }}" class="float-end btn btn-outline-info btn-sm">{{ .Site.Params.terms.read | default "Read" }}</a>
+                        </div>
+                        {{ end }}
+                        <div class="{{ if and (not (.Site.Params.footer.recentPosts.disableFeaturedImage | default false)) $image }}post-content-col{{ else }}col-12{{ end }}">
+                            <div class="card-body bg-transparent p-4 shadow-sm h-100 d-flex flex-column">
+                                <h5 class="card-title bg-transparent mb-3 primary-font" title="{{ .Title }}">{{ .Title }}</h5>
+                                <div class="card-text secondary-font flex-grow-1">
+                                    <p class="mb-3">{{ .Summary | truncate 200}}</p>
+                                </div>
+                                <div class="mt-auto post-footer bg-transparent pt-3 border-top" style="padding-left: 0; padding-right: 0;">
+                                    <span class="float-start bg-transparent">{{ .Date.Format (.Site.Params.datesFormat.articleRecent | default "January 2, 2006") }}</span>
+                                    <span class="float-end btn btn-outline-info btn-sm">{{ .Site.Params.terms.read | default "Read" }}</span>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </a>
         </div>
         {{ end }}
     </div>
