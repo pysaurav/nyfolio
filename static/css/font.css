@@ -1,20 +1,21 @@
-
-/* Default font for body */
+/* Default font for body - Inter (Primary UI & Headings) */
 body {
-    font-family: "Lora", serif !important;
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !important;
 }
 
-/* secondary font */
+/* secondary font - EB Garamond (Editorial/Long-form) */
 .secondary-font, #secondary-font {
-    font-family: "Lora", serif;
+    font-family: "EB Garamond", Georgia, serif;
 }
 
-/* primary font */
+/* primary font - Inter (UI & Headings) */
 .primary-font, #primary-font {
-    font-family: "Alata", sans-serif;
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.01em; /* +1-2% for headlines */
 }
 
-/* Default font */
+/* Default font - Inter */
 .default-font, #default-font {
-    font-family: "Roboto", sans-serif;
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
