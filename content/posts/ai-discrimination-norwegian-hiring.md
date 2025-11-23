@@ -1,31 +1,35 @@
 +++ 
 date = "2025-11-16"
-title = "When AI Learns to Discriminate: The surprising way Norwegian hiring algorithms amplify bias"
+title = "Using AI for recruitment in Norway? Here is how algorithms inherit our biases"
 slug = "ai-discrimination-norwegian-hiring" 
 tags = ["AI", "Ethics", "Machine Learning", "Norway"]
 categories = ["Product"]
 series = ["AI Ethics", "Opinion"]
 image = "/library/ai_ethics/ai_ethics_1.png"
+mermaid = true
 +++
 
-[Despite Norway's egalitarian reputation, research shows ample evidence of discrimination against ethnic minorities in hiring processes](https://www.sv.uio.no/iss/english/research/projects/navigate/). 
+AI is changing how companies hire people. It's happening everywhere, including Norway.
 
-The adoption of AI and machine-learning algorithms in recruitment has increased significantly in recent years, something the [Norwegian Equality and Anti-Discrimination Ombud (LDO) highlights in its report on algorithms and discrimination](https://ldo.no/content/uploads/2025/05/Algorithms-artificial-intelligence-and-discrimination-report.pdf). Because these systems are trained on historical hiring data shaped by decades of underrepresentation of women, immigrants, and candidates from remote Norway, there is a high likelihood that societal biases were embedded into the models from the beginning. In most cases, algorithms simply inherit these patterns and learn them as if they were normal.
+Despite Norway's reputation for equality, [NAVIGATE, a research series at UiO shows clear evidence](https://www.sv.uio.no/iss/english/research/projects/navigate/) of discrimination against ethnic minorities in hiring. Now, as companies increasingly use AI and machine learning to screen job applications, there's a serious problem as these systems learn from the past and the societal data from past is now transformed into digital present with the same bias.
 
-One can suspect it being a technical bug, maybe poor feature engineering or overfitting initially. But most often AI systems simply just inherited our biases from historical data context.
+When AI is trained on years of hiring data shaped by decades of underrepresentation of women, immigrants, and candidates from remote parts of Norway, it learns to see those biases as normal patterns. The algorithms don't create new discrimination. They inherit ours.
 
+You might think it's a technical bug or poor design. But most often, AI systems simply learn what we taught them through our own biased decisions.
 
-I wanted to explore and document more on this topic as Recruitment AI is explicitly labeled a “high-risk system” under the EU AI Act.
+This matters because recruitment AI is classified as a **"high-risk system"** under the EU AI Act, a recognition that these tools can seriously harm people's lives and careers. The [Norwegian Equality and Anti-Discrimination Ombud's 2024 report](https://ldo.no/content/uploads/2025/05/Algorithms-artificial-intelligence-and-discrimination-report.pdf) on algorithms and discrimination highlights exactly this concern.
 
+Here I'll explain how it can make the recruitment sector in Norway worse and how what we can do about it.
 
 ## Stories from the ground
 
-I heard several friends talking about how young immigrant professionals change their names to more “Norwegian-sounding” ones just to get a fair shot at interviews which is also one of the mentioned case in ([NAVIGATE, UiO](https://www.sv.uio.no/iss/english/research/projects/navigate/)). 
+I've heard some people talk about changing their names on their CVs just to get a fair shot at interviews. Young professionals with immigrant backgrounds adopting more "Norwegian-sounding" names just to be considered.
 
+This isn't a made up story, a [2023 study by Thiyagarajah and Orupabo](https://samfunnsforskning.brage.unit.no/samfunnsforskning-xmlui/bitstream/handle/11250/3096863/thiyagarajah-orupabo-2023-promoting-norwegianess-to-get-a-foot-in-the-door-stigma-management-among-young-ethnic%2b%25282%2529.pdf) documented ethnic minority jobseekers systematically downplaying their backgrounds to gain "a foot in the door." Field experiments show jobseekers with immigrant backgrounds receive significantly fewer callbacks, even with identical qualifications ([Midtbøen, 2016](https://www.sv.uio.no/iss/english/research/projects/navigate/)).
 
 ## Amplification of Bias
 
-I have now spent quite some time learning about how machine learning models learn from data, technical and ethical consequences of it. When a model makes hiring decisions, over time it creates something we call  "bias amplification", and understanding this feedback loop is critical.
+I have now spent quite some years learning about how machine learning models learns from data, technical and ethical consequences of it. When a model makes hiring decisions, over time it creates something we call  "bias amplification", and understanding this feedback loop is critical.
 
 Here's how the cycle works for example:
 
@@ -44,20 +48,41 @@ Another retraining cycle. The model now has two years of its own biased outputs 
 **Year 4 and Beyond: Runaway Bias**  
 Each cycle makes the bias stronger because the model is learning from its own biased outputs. What started as a reflection of human bias becomes algorithmic certainty.
 
-If a company retrain their models quarterly or annually to "improve performance." Without intervention, they're unknowingly building amplification machines. [The Norwegian Equality and Anti Discrimination Ombud has raised concerns about exactly this kind of algorithmic discrimination](https://ldo.no/content/uploads/2025/05/Algorithms-artificial-intelligence-and-discrimination-report.pdf).
+If a company retrain their models quarterly or annually to "improve performance." Without intervention, they're unknowingly building amplification machines.
 
+```mermaid
+
+graph TD
+A[Year 0: 
+Historical Data<br/>40% bias gap exists] -->|Train AI| B[Year 1: 
+First Model<br/>Learns patterns<br/>40% gap persists]
+B -->|Retrain with Year 1 data| C[Year 2: 
+Self-Learning<br/>AI learns from itself<br/>50% gap]
+C -->|Retrain with Year 2 data| D[Year 3: 
+Normalized<br/>Bias seems normal<br/>65% gap]
+D -->|Continue cycle| E[Year 4+: 
+Runaway Bias<br/>Algorithmic certainty]
+style A fill:#DC143C,stroke:#0E1B2A,stroke-width:2px,color:#fff
+style B fill:#0D7377,stroke:#0E1B2A,stroke-width:2px,color:#fff
+style C fill:#14425A,stroke:#0E1B2A,stroke-width:2px,color:#fff
+style D fill:#0E1B2A,stroke:#DC143C,stroke-width:3px,color:#fff
+style E fill:#DC143C,stroke:#0E1B2A,stroke-width:3px,color:#fff
+```
 ## Real example in Norwegian tech sector
 
-While women make up around 49 percent of Norway’s population ([Statistics Norway – Population by gender](https://www.ssb.no/en/befolkning/folketall/statistikk/befolkning)), only about 22 percent of workers in IT occupations are women ([Statistics Norway – Many more have IT-occupations](https://www.ssb.no/arbeid-og-lonn/sysselsetting/artikler/mange-flere-har-it-yrker)). This contrast shows a clear underrepresentation in the tech sector.
+While women make up around 49 percent of Norway's population ([Statistics Norway – Population by gender](https://www.ssb.no/en/befolkning/folketall/statistikk/befolkning)), only about 22 percent of workers in IT occupations are women ([Statistics Norway – Many more have IT-occupations](https://www.ssb.no/arbeid-og-lonn/sysselsetting/artikler/mange-flere-har-it-yrker)). This contrast shows a clear underrepresentation in the tech sector.
 
 
-When an AI hiring model is trained on this kind of historically imbalanced data, it tends to learn that “successful candidates” look like the majority group. As a result, qualified applicants from underrepresented regions or demographic groups can be treated as statistically unusual by the model, leading to compounded disadvantage with each retraining cycle. This amplification mechanism is well documented in algorithmic fairness research ([Barocas & Selbst, 2016](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2477899), [Raghavan et al., 2020](https://dl.acm.org/doi/10.1145/3351095.3372828)).
+When an AI hiring model is trained on this kind of historically imbalanced data, it tends to learn that "successful candidates" look like the majority group. As a result, qualified applicants from underrepresented regions or demographic groups can be treated as statistically unusual by the model, leading to compounded disadvantage with each retraining cycle. This amplification mechanism is well documented in algorithmic fairness research ([Barocas & Selbst, 2016](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2477899), [Raghavan et al., 2020](https://dl.acm.org/doi/10.1145/3351095.3372828)).
 
 ## Technology and regulation converging
 
 This brings us to the regulatory landscape. Norway, along with the EU, is moving toward requiring AI systems to meet fairness standards, with the EU AI Act specifically addressing bias in high risk applications like hiring. Given that [one in four Norwegian businesses now uses AI](https://practiceguides.chambers.com/practice-guides/artificial-intelligence-2025/norway/trends-and-developments), this isn't a distant concern, it's happening right now.
 
 ## Solution: Starting simple with reweighting
+
+
+While there are multiple techniques and intervention points to help solve this today lets talk about reweighting which is one of the pre-processing techniques. Later in the series of this article we will cover in-processing and pos-processing techniques as well.
 
 After studying about fairness interventions, I've found that you don't need to start with complex solutions. While there are sophisticated approaches for different fairness goals (demographic parity, equal opportunity, individual fairness, the simplest intervention that actually works is something called reweighting. 
 
@@ -83,7 +108,11 @@ We adjust how much the model learns from each group to balance representation:
 
 This way, the model learns that a "typical qualified candidate" isn't just someone who looks like the historical majority. It prevents the system from treating "most common" as "most qualified."
 
+
+
 ## Looking forward
+
+The Norwegian Equality and Anti-Discrimination Ombud's 2024 legal analysis confirms that current discrimination law needs revision to specifically address algorithmic systems, highlighting recruitment AI as a primary concern due to its classification as a high-risk application under EU regulations.
 
 As I think about these insights, my view is that the future of AI in Norwegian hiring will be shaped by three forces:
 
@@ -95,7 +124,7 @@ Finally, the businesses that choose to implement fairness strategies proactively
 
 What is clear is that bias amplification in AI is not just an abstract risk, it appears in real datasets, in real companies, right now. The encouraging part is that practical solutions exist. 
 
-Honestly, as someone who builds AI systems, I believe we have a responsibility to ensure our models don't amplify the very inequalities we claim to want to eliminate. It starts with acknowledging the problem, understanding the mechanisms, and taking concrete steps toward fairness.
+As someone who builds AI systems, we have a responsibility to ensure our models don't amplify the very inequalities we claim to want to eliminate. It starts with acknowledging the problem, understanding the mechanisms, and taking concrete steps toward fairness.
 
 ---
 
@@ -115,4 +144,3 @@ ________________________
 If you enjoy staying updated on technology, business, and the universe, feel free to read me on Substack.
 
 <iframe src="https://pysaurav.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
-

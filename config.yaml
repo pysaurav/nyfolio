@@ -22,6 +22,14 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: true
+    style: monokai
+    tabWidth: 4
 
 Menus:
   main:
@@ -77,6 +85,9 @@ params:
   
   # Whether to add mathjax support on all pages. Alternatively, you can opt-in per page by adding `mathjax: true` in the frontmatter.
   mathjax: false
+
+  # Whether to add mermaid diagram support on pages. Opt-in per page by adding `mermaid: true` in the frontmatter.
+  mermaid: true
 
   # Whether the fade animations on the home page will be enabled
   animate: true
