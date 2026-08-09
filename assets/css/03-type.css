@@ -1,0 +1,24 @@
+h1, h2, h3, h4 { font-family: var(--display); font-weight: 600; }
+
+.t-hero    { font-size: var(--fs-hero);    line-height: var(--lh-hero); letter-spacing: -0.01em; }
+.t-section { font-size: var(--fs-section); line-height: var(--lh-section); }
+.t-heading { font-size: var(--fs-heading); line-height: var(--lh-heading); font-weight: 500; }
+
+/* Human — one per page */
+.aside {
+  font-family: var(--display); font-style: italic; font-weight: 400;
+  font-size: var(--fs-body); line-height: var(--lh-aside); color: var(--ink-400);
+}
+
+/* Data — sentence case always, never letter-spaced */
+.eyebrow, .meta, .mono {
+  font-family: var(--mono); font-size: var(--fs-caption);
+  line-height: var(--lh-caption); color: var(--gold-700);
+}
+.on-ink .eyebrow, .on-ink .meta, .on-ink .mono { color: var(--gold-600); }
+
+strong, b { font-weight: 500; }
+
+/* the highlight — one word per headline */
+.hl { background: var(--scarlet-600); color: var(--bone-100); padding: 0 0.24em; }
+.on-ink .hl { background: var(--bone-100); color: var(--scarlet-600); }

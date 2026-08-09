@@ -1,0 +1,22 @@
+<div class="section wrap">
+  <h1 class="t-section measure">{{ .Title }}</h1>
+  {{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}
+  {{ if eq .Kind "taxonomy" }}
+  <ul class="social" style="margin-top:var(--s-4)">
+    {{ range .Pages }}
+    <li><a href="{{ .RelPermalink }}">{{ .Title | lower }} ({{ len .Pages }})</a></li>
+    {{ end }}
+  </ul>
+  {{ else }}
+  {{ $paginator := .Paginate (.Pages.ByDate.Reverse) }}
+  <div style="margin-top:var(--s-5)">
+    {{ range $paginator.Pages }}{{ partial "post-card.html" . }}{{ end }}
+  </div>
+  {{ if gt $paginator.TotalPages 1 }}
+  <ul class="social" style="margin-top:var(--s-4)">
+    {{ if $paginator.HasPrev }}<li><a href="{{ $paginator.Prev.URL }}">← newer</a></li>{{ end }}
+    {{ if $paginator.HasNext }}<li><a href="{{ $paginator.Next.URL }}">older →</a></li>{{ end }}
+  </ul>
+  {{ end }}
+  {{ end }}
+</div>

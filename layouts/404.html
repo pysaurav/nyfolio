@@ -1,0 +1,12 @@
+{{ define "title" }}{{ site.Params.terms.pageNotFound | default "Page not found" }} | {{ site.Title }}{{ end }}
+{{ define "nav" }}{{ "" }}{{ end }}
+{{ define "main" }}
+<section class="ink-section on-ink" style="min-height:60vh">
+  {{ partial "nav.html" (dict "onInk" true) }}
+  <div class="wrap" style="padding-block:var(--s-7)">
+    <p class="eyebrow">404</p>
+    <h1 class="t-section measure" style="margin-top:var(--s-2)">{{ site.Params.terms.pageNotFound | default "Page not found" }}.</h1>
+    <p style="margin-top:var(--s-4)"><a class="btn-primary" href="/">Back to the start</a></p>
+  </div>
+</section>
+{{ end }}

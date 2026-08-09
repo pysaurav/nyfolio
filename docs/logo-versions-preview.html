@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Logo versions — deep ground, amplified</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Space+Grotesk:wght@400;500&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { background:#F4EEE2; color:#14161B; font-family:'Space Grotesk', sans-serif; font-size:16px; line-height:1.6; padding:64px 28px; }
+  .wrap { max-width:920px; margin:0 auto; }
+  h1 { font-family:'Fraunces', serif; font-weight:600; font-size:clamp(30px, 5vw, 44px); line-height:1.1; margin:10px 0 8px; }
+  .eyebrow { font-family:'JetBrains Mono', monospace; font-size:12px; color:#A67C35; }
+  .lede { color:#3A3E46; max-width:60ch; margin-bottom:40px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:16px; }
+  .tile { border:1px solid #D9CCB1; border-radius:12px; overflow:hidden; background:#FAF7F0; }
+  .tile .stage { height:210px; display:flex; align-items:center; justify-content:center; }
+  .tile .stage.checker { background:repeating-conic-gradient(#E9DFCC 0% 25%, #FAF7F0 0% 50%) 0 0 / 24px 24px; }
+  .tile svg { height:130px; width:auto; }
+  .tile .meta { padding:14px 16px; border-top:1px solid #E9DFCC; background:#FAF7F0; }
+  .tile .meta b { display:block; font-weight:500; font-size:14.5px; }
+  .tile .meta span { font-family:'JetBrains Mono', monospace; font-size:11.5px; color:#6A6F78; display:block; margin-top:3px; }
+  h2 { font-family:'Fraunces', serif; font-weight:600; font-size:26px; margin:52px 0 16px; }
+  .note { font-size:14px; color:#3A3E46; margin-top:24px; max-width:66ch; }
+  .band { display:flex; height:8px; border-radius:4px; overflow:hidden; margin-top:56px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <span class="eyebrow">logo versions · v1.1 · august 2026</span>
+  <h1>The monogram, in every approved color</h1>
+  <p class="lede">Construction: rounded outer corners (radius 7% of mark width), sharp inner corners — soft exterior, precise interior. Files ship as SVG and scale to any size.</p>
+
+  <h2>Light mode</h2>
+  <div class="grid">
+    <div class="tile">
+      <div class="stage" style="background:#F4EEE2;"><svg viewBox="0 0 280 312"><path d="M20 0 H260 A20 20 0 0 1 280 20 V48 H0 V20 A20 20 0 0 1 20 0 Z M0 48 H48 V224 H0 Z M96 88 H280 V136 H96 Z M232 136 H280 V264 H232 Z M0 176 H184 V224 H0 Z M0 264 H280 V292 A20 20 0 0 1 260 312 H20 A20 20 0 0 1 0 292 Z" fill="#14161B"/></svg></div>
+      <div class="meta"><b>Primary</b><span>mark ink 800 #14161B · bg bone 100 #F4EEE2</span><span>logo-light-primary.svg</span></div>
+    </div>
+    <div class="tile">
+      <div class="stage checker"><svg viewBox="0 0 280 312"><path d="M20 0 H260 A20 20 0 0 1 280 20 V48 H0 V20 A20 20 0 0 1 20 0 Z M0 48 H48 V224 H0 Z M96 88 H280 V136 H96 Z M232 136 H280 V264 H232 Z M0 176 H184 V224 H0 Z M0 264 H280 V292 A20 20 0 0 1 260 312 H20 A20 20 0 0 1 0 292 Z" fill="#14161B"/></svg></div>
+      <div class="meta"><b>Primary, transparent</b><span>mark ink 800 #14161B · bg none</span><span>logo-light-primary-transparent.svg</span></div>
+    </div>
+    <div class="tile">
+      <div class="stage" style="background:#F4EEE2;"><svg viewBox="0 0 280 312"><path d="M20 0 H260 A20 20 0 0 1 280 20 V48 H0 V20 A20 20 0 0 1 20 0 Z M0 48 H48 V224 H0 Z M96 88 H280 V136 H96 Z M232 136 H280 V264 H232 Z M0 176 H184 V224 H0 Z M0 264 H280 V292 A20 20 0 0 1 260 312 H20 A20 20 0 0 1 0 292 Z" fill="#B01230"/></svg></div>
+      <div class="meta"><b>Signal — rare use</b><span>mark scarlet 600 #B01230 · bg bone 100 #F4EEE2</span><span>logo-light-signal.svg</span></div>
+    </div>
+  </div>
+
+  <h2>Dark mode</h2>
+  <div class="grid">
+    <div class="tile">
+      <div class="stage" style="background:#14161B;"><svg viewBox="0 0 280 312"><path d="M20 0 H260 A20 20 0 0 1 280 20 V48 H0 V20 A20 20 0 0 1 20 0 Z M0 48 H48 V224 H0 Z M96 88 H280 V136 H96 Z M232 136 H280 V264 H232 Z M0 176 H184 V224 H0 Z M0 264 H280 V292 A20 20 0 0 1 260 312 H20 A20 20 0 0 1 0 292 Z" fill="#F4EEE2"/></svg></div>
+      <div class="meta"><b>Inverse</b><span>mark bone 100 #F4EEE2 · bg ink 800 #14161B</span><span>logo-dark-inverse.svg</span></div>
+    </div>
+    <div class="tile">
+      <div class="stage" style="background:#1E2128;"><svg viewBox="0 0 280 312"><path d="M20 0 H260 A20 20 0 0 1 280 20 V48 H0 V20 A20 20 0 0 1 20 0 Z M0 48 H48 V224 H0 Z M96 88 H280 V136 H96 Z M232 136 H280 V264 H232 Z M0 176 H184 V224 H0 Z M0 264 H280 V292 A20 20 0 0 1 260 312 H20 A20 20 0 0 1 0 292 Z" fill="#F4EEE2"/></svg></div>
+      <div class="meta"><b>Inverse, transparent</b><span>mark bone 100 #F4EEE2 · bg none — any ink surface</span><span>logo-dark-transparent.svg</span></div>
+    </div>
+    <div class="tile">
+      <div class="stage" style="background:#14161B;"><svg viewBox="0 0 280 312"><path d="M20 0 H260 A20 20 0 0 1 280 20 V48 H0 V20 A20 20 0 0 1 20 0 Z M0 48 H48 V224 H0 Z M96 88 H280 V136 H96 Z M232 136 H280 V264 H232 Z M0 176 H184 V224 H0 Z M0 264 H280 V292 A20 20 0 0 1 260 312 H20 A20 20 0 0 1 0 292 Z" fill="#C41A3B"/></svg></div>
+      <div class="meta"><b>Signal, dark — large sizes only</b><span>mark scarlet 500 #C41A3B · bg ink 800 #14161B</span><span>logo-dark-signal.svg</span></div>
+    </div>
+  </div>
+
+  <h2>Ready-made assets</h2>
+  <div class="grid">
+    <div class="tile">
+      <div class="stage" style="background:#E9DFCC;"><svg viewBox="0 0 512 512" style="height:150px;"><circle cx="256" cy="256" r="256" fill="#14161B"/><g transform="translate(144,131.2) scale(0.8)"><path d="M20 0 H260 A20 20 0 0 1 280 20 V48 H0 V20 A20 20 0 0 1 20 0 Z M0 48 H48 V224 H0 Z M96 88 H280 V136 H96 Z M232 136 H280 V264 H232 Z M0 176 H184 V224 H0 Z M0 264 H280 V292 A20 20 0 0 1 260 312 H20 A20 20 0 0 1 0 292 Z" fill="#F4EEE2"/></g></svg></div>
+      <div class="meta"><b>Avatar</b><span>bone on ink 800 circle · LinkedIn, X, GitHub</span><span>avatar-ink.svg</span></div>
+    </div>
+    <div class="tile">
+      <div class="stage" style="background:#E9DFCC;"><svg viewBox="0 0 512 512" style="height:150px;"><rect width="512" height="512" rx="96" fill="#F4EEE2"/><g transform="translate(151,139) scale(0.75)"><path d="M20 0 H260 A20 20 0 0 1 280 20 V48 H0 V20 A20 20 0 0 1 20 0 Z M0 48 H48 V224 H0 Z M96 88 H280 V136 H96 Z M232 136 H280 V264 H232 Z M0 176 H184 V224 H0 Z M0 264 H280 V292 A20 20 0 0 1 260 312 H20 A20 20 0 0 1 0 292 Z" fill="#B01230"/></g></svg></div>
+      <div class="meta"><b>Favicon / app icon</b><span>scarlet 600 on bone, 96px corner radius</span><span>favicon-signal.svg</span></div>
+    </div>
+  </div>
+
+  <p class="note">Rules recap: these six treatments plus two assets are the complete set — nothing else is approved. Never gold or teal fills, never outlines, gradients, shadows, rotation, or placement over photography. Clear space equals one stroke width on all sides (built into the background versions). Minimum size 20px tall digital, 8mm print. The dark signal version is for large display moments only — at small sizes scarlet on ink loses contrast, so default to the inverse.</p>
+
+  <div class="band"><div style="flex:5; background:#14161B;"></div><div style="flex:2; background:#B01230;"></div><div style="flex:1; background:#C99B4F;"></div></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+.wrap { max-width: var(--wrap-max); margin: 0 auto; padding-inline: var(--margin-mobile); }
+@media (min-width: 900px) { .wrap { padding-inline: var(--margin-desktop); } }
+
+.section { padding-block: var(--s-7); }
+.section + .section { border-top: 1px solid var(--bone-300); }
+
+/* the one dark moment per page */
+.ink-section { background: var(--ink-800); color: var(--bone-100); }
+/* :not(.btn) matters — a bare `.ink-section a` outranks the button classes
+   on specificity and repaints their labels teal on scarlet. */
+.ink-section a:not(.btn) { color: var(--teal-500); }
+
+.measure { max-width: var(--measure); }
+
+.band { display: flex; height: 10px; }
+.band i { display: block; height: 100%; }
+.band .b1 { flex: 5; background: var(--ink-800); }
+.band .b2 { flex: 2; background: var(--scarlet-600); }
+.band .b3 { flex: 1; background: var(--gold-600); }

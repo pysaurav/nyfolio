@@ -1,0 +1,14 @@
+{{ define "main" }}
+<article class="section wrap">
+  <header class="measure">
+    {{ partial "meta.html" . }}
+    <h1 class="t-section">{{ .Title }}</h1>
+  </header>
+  <div class="prose reveal reveal-1">{{ .Content }}</div>
+  {{ with .Params.tags }}
+  <p class="meta" style="margin-top:var(--s-5)">
+    {{ range . }}<a href="/tags/{{ . | urlize }}/">{{ . | lower }}</a> {{ end }}
+  </p>
+  {{ end }}
+</article>
+{{ end }}

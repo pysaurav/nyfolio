@@ -1,0 +1,23 @@
+.prose { max-width: var(--measure); }
+.prose > * + * { margin-top: var(--s-2); }
+.prose h2 { font-size: var(--fs-section); line-height: var(--lh-section); margin-top: var(--s-5); }
+.prose h3 { font-size: var(--fs-heading); line-height: var(--lh-heading); font-weight: 500; margin-top: var(--s-4); }
+.prose img { border-radius: var(--r-card); margin-block: var(--s-3); }
+.prose blockquote {
+  border-left: 2px solid var(--gold-600); padding-left: var(--s-2);
+  font-family: var(--display); font-style: italic; color: var(--ink-500);
+}
+.prose code { font-family: var(--mono); font-size: 0.88em; background: var(--bone-200); padding: 1px 5px; border-radius: 4px; }
+.prose pre { background: var(--ink-800); color: var(--bone-100); padding: var(--s-3); border-radius: var(--r-card); overflow-x: auto; }
+.prose pre code { background: none; padding: 0; color: inherit; }
+.prose table { border-collapse: collapse; width: 100%; font-size: 15px; }
+.prose th {
+  font-family: var(--mono); font-size: 12px; font-weight: 400; color: var(--gold-700);
+  text-align: left; padding: 8px 12px 8px 0; border-bottom: 1px solid var(--bone-300);
+}
+.prose td { padding: 10px 12px 10px 0; border-bottom: 1px solid var(--bone-200); vertical-align: top; }
+.prose hr { border: none; border-top: 1px solid var(--bone-300); margin-block: var(--s-4); }
+
+/* wide content scrolls inside itself, never the page */
+.prose pre, .prose table { max-width: 100%; }
+.prose .table-scroll { overflow-x: auto; }

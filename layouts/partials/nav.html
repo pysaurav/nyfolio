@@ -1,0 +1,10 @@
+<nav class="nav wrap">
+  <a href="/" aria-label="{{ site.Title }} — home">
+    {{ partial "monogram.html" (dict "variant" (cond .onInk "inverse" "primary")) }}
+  </a>
+  <ul>
+    {{ range site.Menus.main }}
+    <li><a href="{{ .URL }}" title="{{ .Title }}">{{ .Name | lower }}</a></li>
+    {{ end }}
+  </ul>
+</nav>

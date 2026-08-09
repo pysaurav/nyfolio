@@ -1,0 +1,8 @@
+<p class="meta">
+  {{- $d := not .Date.IsZero -}}
+  {{- $s := .Params.series -}}
+  {{- $r := site.Params.singlePages.readTime.enable -}}
+  {{- if $d }} {{ .Date.Format (site.Params.datesFormat.articleList | default "Jan 2, 2006") }}{{ end -}}
+  {{- if $s }}{{ if $d }} · {{ end }}{{ delimit $s ", " }}{{ end -}}
+  {{- if $r }}{{ if or $d $s }} · {{ end }}{{ .ReadingTime }} {{ site.Params.singlePages.readTime.content | default "min read" }}{{ end -}}
+</p>
