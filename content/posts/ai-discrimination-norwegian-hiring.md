@@ -62,11 +62,11 @@ C -->|Retrain with Year 2 data| D[Year 3:
 Normalized<br/>Bias seems normal<br/>65% gap]
 D -->|Continue cycle| E[Year 4+: 
 Runaway Bias<br/>Algorithmic certainty]
-style A fill:#DC143C,stroke:#0E1B2A,stroke-width:2px,color:#fff
-style B fill:#0D7377,stroke:#0E1B2A,stroke-width:2px,color:#fff
-style C fill:#14425A,stroke:#0E1B2A,stroke-width:2px,color:#fff
-style D fill:#0E1B2A,stroke:#DC143C,stroke-width:3px,color:#fff
-style E fill:#DC143C,stroke:#0E1B2A,stroke-width:3px,color:#fff
+style A fill:#0F6B60,stroke:#14161B,stroke-width:2px,color:#F4EEE2
+style B fill:#17897B,stroke:#14161B,stroke-width:2px,color:#F4EEE2
+style C fill:#A67C35,stroke:#14161B,stroke-width:2px,color:#F4EEE2
+style D fill:#1E2128,stroke:#B01230,stroke-width:3px,color:#F4EEE2
+style E fill:#B01230,stroke:#14161B,stroke-width:3px,color:#F4EEE2
 ```
 ## Real example in Norwegian tech sector
 

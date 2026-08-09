@@ -1,0 +1,68 @@
+:root {
+  /* bone — the ground */
+  --bone-50:#FAF7F0;
+  --bone-100:#F4EEE2;
+  --bone-200:#E9DFCC;
+  --bone-300:#D9CCB1;
+  /* ink — the depth */
+  --ink-900:#0D0F12;
+  --ink-800:#14161B;
+  --ink-700:#1E2128;
+  --ink-500:#3A3E46;
+  --ink-400:#6A6F78;
+  --ink-300:#9BA0A8;
+  /* scarlet — the voice */
+  --scarlet-100:#F7E2E6;
+  --scarlet-500:#C41A3B;
+  --scarlet-600:#B01230;
+  --scarlet-700:#8A0E26;
+  /* gold — the detail */
+  --gold-100:#F4E8CF;
+  --gold-300:#E2C48C;
+  --gold-600:#C99B4F;
+  --gold-700:#A67C35;
+  /* teal — the data */
+  --teal-100:#DBEDE8;
+  --teal-500:#17897B;
+  --teal-700:#0F6B60;
+  --teal-800:#0A4A43;
+
+  --display:'Fraunces', Georgia, serif;
+  --body:'Space Grotesk', -apple-system, 'Helvetica Neue', sans-serif;
+  --mono:'JetBrains Mono', ui-monospace, 'SF Mono', monospace;
+
+  --fs-hero:clamp(40px, 8vw, 72px);
+  --fs-section:clamp(30px, 5vw, 48px);
+  --fs-heading:clamp(22px, 3vw, 28px);
+  --fs-body:17px;
+  --fs-caption:13px;
+
+  --lh-hero:1.08;
+  --lh-section:1.12;
+  --lh-heading:1.25;
+  --lh-body:1.65;
+  --lh-aside:1.5;
+  --lh-caption:1.5;
+
+  --s-1:8px;
+  --s-2:16px;
+  --s-3:24px;
+  --s-4:32px;
+  --s-5:48px;
+  --s-6:64px;
+  --s-7:96px;
+  --s-8:128px;
+
+  --r-control:6px;
+  --r-card:12px;
+
+  --wrap-max:1200px;
+  --measure:68ch;
+  --gutter:24px;
+  --margin-desktop:96px;
+  --margin-mobile:28px;
+
+  --t-ui:240ms;
+  --t-reveal:500ms;
+  --ease:cubic-bezier(0.16, 1, 0.3, 1);
+}

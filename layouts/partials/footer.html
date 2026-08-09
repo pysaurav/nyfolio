@@ -1,0 +1,8 @@
+{{ partial "band.html" . }}
+<footer class="site-footer on-ink">
+  <div class="wrap">
+    {{ partial "monogram.html" (dict "variant" "inverse") }}
+    <p class="mono">© {{ now.Format "2006" }} {{ site.Params.terms.copyright | default "Saurav" }} · oslo</p>
+    <p class="mono"><a href="/privacy/">privacy</a></p>
+  </div>
+</footer>

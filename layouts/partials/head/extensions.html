@@ -11,16 +11,22 @@
 {{ if .Params.mermaid }}
 <script type="module">
   import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-  mermaid.initialize({ 
+  mermaid.initialize({
     startOnLoad: true,
-    theme: 'default',
+    theme: 'base',
     themeVariables: {
-      primaryColor: '#DC143C',
-      primaryTextColor: '#fff',
-      primaryBorderColor: '#0E1B2A',
-      lineColor: '#0D7377',
-      secondaryColor: '#14425A',
-      tertiaryColor: '#FAF9F6'
+      background: '#14161B',
+      primaryColor: '#3A3E46',
+      primaryTextColor: '#F4EEE2',
+      primaryBorderColor: '#6A6F78',
+      lineColor: '#17897B',
+      secondaryColor: '#0F6B60',
+      tertiaryColor: '#B01230',
+      noteBkgColor: '#E2C48C',
+      noteBorderColor: '#C99B4F',
+      noteTextColor: '#14161B',
+      fontFamily: 'JetBrains Mono, ui-monospace, monospace',
+      fontSize: '13px'
     }
   });
 </script>

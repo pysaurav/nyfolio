@@ -1,27 +1,41 @@
-{{ define "head" }}
-<meta name="description" content={{ .Site.Params.description }}>
-<link rel="stylesheet" href="{{ .Site.Params.staticPath }}/css/index.css" media="all">
-<link rel="stylesheet" href="{{ .Site.Params.staticPath }}/css/projects.css" media="all">
-<link rel="stylesheet" href="{{ .Site.Params.staticPath }}/css/posts-list.css" media="all">
-<link rel="stylesheet" href="{{ .Site.Params.staticPath }}/css/list.css" media="all">
-<link rel="stylesheet" href="{{ .Site.Params.staticPath }}/css/custom-hero.css" media="all">
+{{ define "title" }}{{ site.Title }}{{ end }}
 
-<!-- fontawesome -->
-<script defer src="{{ .Site.Params.staticPath }}/fontawesome-6/all-6.4.2.js"></script>
-{{ end }}
-
-{{ define "title" }}
-{{ .Site.Title }}
-{{ end }}
+{{ define "nav" }}{{ "" }}{{ end }}
 
 {{ define "main" }}
-{{- partial "sections/hero/index.html" . -}}
-{{- partial "sections/footer/recentBlogPosts.html" . -}}
-{{- partial "sections/about.html" . -}}
-{{- partial "sections/experience.html" . -}}
-{{- partial "sections/education.html" . -}}
-{{- partial "sections/projects.html" . -}}
-{{- partial "sections/achievements.html" . -}}
-{{- partial "sections/contact.html" . -}}
-{{ end }}
+<section class="ink-section on-ink">
+  {{ partial "nav.html" (dict "onInk" true) }}
+  <div class="wrap" style="padding-block:var(--s-6) var(--s-7)">
+    <p class="eyebrow reveal">{{ site.Params.hero.intro }}{{ with site.Params.hero.location }} · {{ . | lower }}{{ end }}</p>
+    <h1 class="t-hero measure reveal reveal-1" style="margin-top:var(--s-2)">{{ site.Params.hero.title }}</h1>
+    <p class="t-heading measure reveal reveal-1" style="margin-top:var(--s-2); font-family:var(--display)">{{ site.Params.hero.subtitle }}</p>
+    <div class="measure reveal reveal-2" style="margin-top:var(--s-3); color:var(--ink-300)">{{ site.Params.hero.content | safeHTML }}</div>
+    <p class="btn-row">
+      {{ with site.Params.hero.button }}{{ if .enable }}
+      <a class="btn btn-primary" href="{{ .url }}">{{ .name }}</a>
+      {{ end }}{{ end }}
+      {{ with site.Params.hero.buttonSecondary }}{{ if .enable }}
+      <a class="btn btn-secondary" href="{{ .url }}">{{ .name }}</a>
+      {{ end }}{{ end }}
+    </p>
+    {{ partial "social-icons.html" . }}
+  </div>
+</section>
 
+<section class="section wrap">
+  <h2 class="t-heading">{{ site.Params.footer.recentPosts.title | default "Recent Posts" }}</h2>
+  <div style="margin-top:var(--s-3)">
+    {{ range first (site.Params.footer.recentPosts.count | default 3) (where site.RegularPages "Section" "posts").ByDate.Reverse }}
+      {{ partial "post-card.html" . }}
+    {{ end }}
+  </div>
+  <p style="margin-top:var(--s-4)"><a class="mono" href="/posts/">all posts →</a></p>
+</section>
+
+{{ if site.Params.about.enable }}
+<section class="section wrap">
+  <h2 class="t-heading">{{ site.Params.about.title }}</h2>
+  <div class="prose" style="margin-top:var(--s-3)">{{ site.Params.about.content | markdownify }}</div>
+</section>
+{{ end }}
+{{ end }}

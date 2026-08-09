@@ -1,0 +1,16 @@
+*, *::before, *::after { box-sizing: border-box; }
+* { margin: 0; padding: 0; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  background: var(--bone-100);
+  color: var(--ink-800);
+  font-family: var(--body);
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  -webkit-font-smoothing: antialiased;
+}
+img, svg, video { display: block; max-width: 100%; height: auto; }
+a { color: var(--teal-700); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+ul, ol { list-style-position: outside; padding-left: 1.2em; }
+button { font: inherit; color: inherit; background: none; border: none; cursor: pointer; }
+:focus-visible { outline: 2px solid var(--teal-700); outline-offset: 3px; }

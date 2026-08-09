@@ -1,0 +1,13 @@
+{{ if and site.Params.singlePages.scrollprogress.enable (eq .Kind "page") }}
+<div id="progress" style="position:fixed;top:0;left:0;height:2px;width:0;background:var(--scarlet-600);z-index:99"></div>
+<script>
+(function () {
+  var bar = document.getElementById('progress');
+  if (!bar || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  addEventListener('scroll', function () {
+    var h = document.documentElement;
+    bar.style.width = (h.scrollTop / (h.scrollHeight - h.clientHeight) * 100) + '%';
+  }, { passive: true });
+})();
+</script>
+{{ end }}
