@@ -4,9 +4,10 @@
 
 {{ define "main" }}
 <section class="ink-section on-ink">
+  {{ partial "hero-mark.html" . }}
   {{ partial "nav.html" (dict "onInk" true) }}
   <div class="wrap" style="padding-block:var(--s-6) var(--s-7)">
-    <p class="eyebrow reveal">{{ site.Params.hero.intro }}{{ with site.Params.hero.location }} · {{ . | lower }}{{ end }}</p>
+    <p class="eyebrow reveal">{{ with site.Params.hero.location }}{{ . | lower }}{{ end }}</p>
     <h1 class="t-hero measure reveal reveal-1" style="margin-top:var(--s-2)">{{ site.Params.hero.title }}</h1>
     <p class="t-heading measure reveal reveal-1" style="margin-top:var(--s-2); font-family:var(--display)">{{ site.Params.hero.subtitle }}</p>
     <div class="measure reveal reveal-2" style="margin-top:var(--s-3); color:var(--ink-300)">{{ site.Params.hero.content | safeHTML }}</div>
