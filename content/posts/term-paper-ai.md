@@ -2,6 +2,7 @@
 date = "2020-09-08"
 title = "Term Paper: Impact of evolving Artificial Intelligence on the Human Race"
 slug = "evolving-ai-on-human-race" 
+description = "A 2020 term paper on artificial intelligence: its history from Turing to Siri, its place in daily life, and the argument for deliberately controlled AI development."
 tags = ["AI", "human", "future"]
 categories = ["Tech"]
 series = ["AI"]

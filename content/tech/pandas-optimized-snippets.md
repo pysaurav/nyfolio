@@ -3,6 +3,12 @@ date = "2020-08-19"
 title = "Pandas Optimized Code Snippets"
 description = "Will gradually append optmized pandas code in this post"
 tags = ["pandas", "optimized","data"]
+
+# Retired duplicate of content/posts/. Kept on disk, no longer rendered;
+# /tech/* 301s to /posts/* in netlify.toml.
+[_build]
+  render = "never"
+  list = "never"
 +++
 
 Here are the pandas snippets that will make data cleaning easier. These will make the process easier and faster.

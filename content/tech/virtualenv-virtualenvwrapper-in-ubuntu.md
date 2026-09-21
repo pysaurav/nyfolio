@@ -5,6 +5,11 @@ slug = "virtualenv-virtualenvwrapper-in-ubuntu"
 tags = ["hugo", "i18n"]
 categories = ["blog"]
 
+# Retired duplicate of content/posts/. Kept on disk, no longer rendered;
+# /tech/* 301s to /posts/* in netlify.toml.
+[_build]
+  render = "never"
+  list = "never"
 +++
 
 We all must have faced the situation where version of our packages don't match and takes up hours of our time to get solved. A virtual Environment is an isolates working environment of a Python project so that other projects aren't hampered.

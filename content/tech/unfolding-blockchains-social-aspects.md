@@ -5,6 +5,12 @@ slug = "unfolding-blockchain's-social-aspects"
 tags = ["blockchain", "social", "uncertainties"]
 categories = []
 series = ["Blockchain"]
+
+# Retired duplicate of content/posts/. Kept on disk, no longer rendered;
+# /tech/* 301s to /posts/* in netlify.toml.
+[_build]
+  render = "never"
+  list = "never"
 +++
 
 With Facebook’s Libra, the crypto-community around the globe has yet more things to talk about, if not be hopeful. The crypto-currencies as well as its underlying blockchain technology together is slowly yet steadily penetrating human life, at least in terms of things to keep an eye on. The same way e-commerce websites were making buzz in the 90’s.

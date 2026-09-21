@@ -2,6 +2,12 @@
 date = "2020-08-16"
 title = "Polyphasic Sleep Cycle"
 tags = ["tesla", "nikola", "da vinci","sleep"]
+
+# Retired duplicate of content/posts/. Kept on disk, no longer rendered;
+# /curiosity/* 301s to /posts/* in netlify.toml.
+[_build]
+  render = "never"
+  list = "never"
 +++
 
 Sleep is one of our basic daily needs. We all spend a substantial amount of our lifetime sleeping. For a common person, one-third of our overall lifetime is spent sleeping. While it is a physical need and keeps us healthy, too much sleep can be a barrier in our productivity and what we can achieve in our life.

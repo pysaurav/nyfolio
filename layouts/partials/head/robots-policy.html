@@ -1,0 +1,42 @@
+{{/* layouts/partials/head/robots-policy.html
+
+     Single source of truth for whether a page should be indexed. Called by
+     head.html (to emit <meta name="robots">) and by sitemap.xml (to decide
+     inclusion), so the two can never disagree.
+
+     Returns a dict:
+       .robots     string for <meta name="robots">
+       .indexable  bool, drives sitemap inclusion
+*/}}
+{{- $p := . -}}
+{{- $robots := "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" -}}
+{{- $indexable := true -}}
+
+{{/* Non-production builds: deploy previews, branch deploys, local server.
+     Depends on HUGO_ENV=preview being set in netlify.toml — `hugo` otherwise
+     reports IsProduction true in every context. */}}
+{{- if not hugo.IsProduction -}}
+  {{- $robots = "noindex, nofollow" -}}
+  {{- $indexable = false -}}
+
+{{/* Thin machine-generated listings: 74 tag pages for 12 posts would be ~80%
+     of the sitemap. `follow` so internal link equity still flows through them.
+     They stay crawlable on purpose — blocking them in robots.txt would stop
+     Google ever reading this directive. */}}
+{{- else if in (slice "taxonomy" "term" "404") $p.Kind -}}
+  {{- $robots = "noindex, follow" -}}
+  {{- $indexable = false -}}
+
+{{/* Paginated pages past the first. Matched on the URL rather than
+     .Paginator, which errors when invoked on a page that never paginated. */}}
+{{- else if in $p.RelPermalink "/page/" -}}
+  {{- $robots = "noindex, follow" -}}
+  {{- $indexable = false -}}
+
+{{/* Explicit opt-out: `noindex = true` in front matter. */}}
+{{- else if $p.Params.noindex -}}
+  {{- $robots = "noindex, follow" -}}
+  {{- $indexable = false -}}
+{{- end -}}
+
+{{- return dict "robots" $robots "indexable" $indexable -}}

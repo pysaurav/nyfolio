@@ -1,0 +1,17 @@
+{{ if site.Params.pillars.enable }}
+<section class="section wrap" id="what-i-do">
+  <h2 class="t-heading">{{ site.Params.pillars.title }}</h2>
+  {{ with site.Params.pillars.intro }}
+  <p class="aside measure" style="margin-top:var(--s-2)">{{ . }}</p>
+  {{ end }}
+  <div class="pillar-grid">
+    {{ range $i, $item := site.Params.pillars.items }}
+    <article class="pillar">
+      <p class="pillar-num mono">{{ printf "%02d" (add $i 1) }}</p>
+      <h3 class="pillar-name">{{ $item.name }}</h3>
+      <p class="pillar-body">{{ $item.content }}</p>
+    </article>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

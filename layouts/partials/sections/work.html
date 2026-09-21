@@ -1,0 +1,19 @@
+{{ if site.Params.work.enable }}
+<section class="section wrap" id="selected-work">
+  <h2 class="t-heading">{{ site.Params.work.title }}</h2>
+  {{ with site.Params.work.intro }}
+  <p class="aside measure" style="margin-top:var(--s-2)">{{ . }}</p>
+  {{ end }}
+  <div class="work-list">
+    {{ range site.Params.work.items }}
+    <article class="work-item">
+      <div class="work-head">
+        <h3 class="work-name">{{ .name }}</h3>
+        {{ with .meta }}<p class="work-meta mono">{{ . }}</p>{{ end }}
+      </div>
+      <p class="work-body">{{ .content }}</p>
+    </article>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

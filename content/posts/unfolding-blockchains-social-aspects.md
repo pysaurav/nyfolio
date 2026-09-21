@@ -1,7 +1,11 @@
 +++ 
 date = "2019-06-22"
 title = "Unfolding blockchain's social aspects"
-slug = "unfolding-blockchain's-social-aspects" 
+# Apostrophe removed: Hugo strips it when building the URL, so the live path was
+# already /posts/unfolding-blockchains-social-aspects/. Keeping it in the slug
+# meant .Params.slug disagreed with the actual URL segment. No URL change.
+slug = "unfolding-blockchains-social-aspects"
+description = "Written during the Facebook Libra moment: blockchain read as a social question about who holds power, rather than a technical one about ledgers."
 tags = ["blockchain", "social", "uncertainties"]
 categories = ["Tech"]
 series = ["Blockchain"]

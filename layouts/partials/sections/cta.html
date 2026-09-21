@@ -1,0 +1,11 @@
+{{ if site.Params.cta.enable }}
+{{/* A quiet closing note, not a sales panel. The brand allows one dark moment
+     per page and the hero already owns it, so this stays on the bone ground. */}}
+<section class="section wrap" id="elsewhere">
+  <h2 class="t-heading">{{ site.Params.cta.title }}</h2>
+  <div class="measure cta-body">{{ site.Params.cta.content | safeHTML }}</div>
+  <p class="btn-row">
+    <a class="btn btn-secondary" href="{{ site.Params.cta.buttonUrl }}">{{ site.Params.cta.buttonName }}</a>
+  </p>
+</section>
+{{ end }}

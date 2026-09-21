@@ -2,6 +2,7 @@
 date = "2026-05-06"
 title = "Coding Is Solved. The Hard Part Starts Now."
 slug = "coding-is-solved-the-hard-part-starts-now"
+description = "Coding is largely solved. Fairness is not — the impossibility theorem proves no system can satisfy every definition of it at once. What that means for teams shipping AI."
 tags = ["AI", "Ethics", "Fairness", "Future"]
 categories = ["Opinion"]
 series = ["AI Ethics", "Opinion"]

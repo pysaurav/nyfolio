@@ -2,6 +2,12 @@
 date = "2020-07-17"
 title = "Nikola Tesla and Wireless Electricity"
 tags = ["tesla", "nikola", "wireless","electricity","wiet"]
+
+# Retired duplicate of content/posts/. Kept on disk, no longer rendered;
+# /curiosity/* 301s to /posts/* in netlify.toml.
+[_build]
+  render = "never"
+  list = "never"
 +++
 
 "Why dont we have wireless electricity yet?", the question bother me now.

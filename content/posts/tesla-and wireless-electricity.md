@@ -1,6 +1,7 @@
 +++ 
 date = "2020-07-17"
 title = "Nikola Tesla and Wireless Electricity"
+description = "Tesla patented the transmission of electricity through a natural medium in 1905. More than a century later we still have not built it. A short note on why."
 tags = ["tesla", "nikola", "wireless","electricity","wiet"]
 categories = ["Curiosity"]
 +++
