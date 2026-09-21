@@ -1,0 +1,128 @@
+{{/* layouts/partials/head/vars.html
+
+     Computes every derived head value once. Consumed by head.html and
+     head/schema.html so the meta tags and the JSON-LD can never drift apart.
+
+     Returns a dict.
+*/}}
+{{- $p := . -}}
+{{- $seo := site.Params.seo -}}
+{{- $policy := partial "head/robots-policy.html" $p -}}
+
+{{/* ---------- <title> ---------- */}}
+{{- $title := "" -}}
+{{- if $p.IsHome -}}
+  {{- $title = $seo.homeTitle | default site.Title -}}
+{{- else -}}
+  {{- $t := $p.Params.seoTitle | default $p.Title -}}
+  {{- $title = printf "%s | %s" $t ($seo.titleSuffix | default site.Title) -}}
+{{- end -}}
+
+{{/* ---------- canonical ---------- */}}
+{{- $canonical := $p.Permalink -}}
+{{- with $p.Params.canonical -}}{{- $canonical = . | absURL -}}{{- end -}}
+
+{{/* ---------- description ----------
+     front matter > summary param > auto summary > site default.
+     The auto-summary step matters: without it, every un-backfilled post
+     emits the identical site-wide string, which is a duplicate-content signal.
+     With it, a post at worst emits its own opening sentence. */}}
+{{/* Each candidate is normalised BEFORE it is tested for emptiness. Several
+     posts open with a raw <div> and an image, so their auto-summary is
+     non-empty as a string but plainifies to nothing — testing first and
+     normalising second silently produced empty descriptions site-wide. */}}
+{{/* NB: `trim` takes (string, cutset). In a pipeline the piped value becomes
+     the LAST argument, so `x | trim " "` evaluates as trim(" ", x) — it trims
+     x's characters out of a single space and returns nothing. Always call it
+     positionally: trim $x " ". */}}
+{{- $norm := "" -}}
+{{- $desc := "" -}}
+
+{{- with $p.Description -}}
+  {{- $norm = trim (. | plainify | htmlUnescape | replaceRE `\s+` " ") " " -}}
+  {{- if $norm -}}{{- $desc = $norm -}}{{- end -}}
+{{- end -}}
+
+{{- if not $desc -}}
+  {{- with $p.Params.summary -}}
+    {{- $norm = trim (. | plainify | htmlUnescape | replaceRE `\s+` " ") " " -}}
+    {{- if $norm -}}{{- $desc = $norm -}}{{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if and (not $desc) $p.IsPage -}}
+  {{- with $p.Summary -}}
+    {{- $norm = trim (. | plainify | htmlUnescape | replaceRE `\s+` " ") " " -}}
+    {{- if $norm -}}{{- $desc = $norm -}}{{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if not $desc -}}
+  {{- $desc = trim (site.Params.description | plainify | replaceRE `\s+` " ") " " -}}
+{{- end -}}
+{{- $desc = $desc | truncate 158 -}}
+
+{{/* ---------- share image ----------
+     Resolution order:
+       1. .Params.images (plural array, the Hugo/OG convention)
+       2. .Params.image  (singular, already used by one post — don't break it)
+       3. a page-bundle resource named cover/og/feature
+       4. site.Params.seo.ogImage
+     Paths that resolve inside assets/ go through .Fill, so the 1200x630
+     contract is enforced by the build rather than by discipline. */}}
+{{- $src := "" -}}
+{{- with $p.Params.images -}}{{- $src = index . 0 -}}{{- end -}}
+{{- if not $src -}}{{- with $p.Params.image -}}{{- $src = . -}}{{- end -}}{{- end -}}
+{{- if not $src -}}
+  {{- with $p.Resources.GetMatch "{cover,og,feature}.{png,jpg,jpeg,webp}" -}}
+    {{- $src = .RelPermalink -}}
+  {{- end -}}
+{{- end -}}
+{{/* Posts fall back to a distinct card so an article is visually
+     distinguishable from the homepage in a feed. */}}
+{{- if not $src -}}
+  {{- if and $p.IsPage (eq $p.Section "posts") -}}
+    {{- $src = $seo.ogImagePost | default "/brand/og-post.png" -}}
+  {{- else -}}
+    {{- $src = $seo.ogImage | default "/brand/og-default.png" -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $ogURL := "" -}}{{- $ogW := 1200 -}}{{- $ogH := 630 -}}{{- $ogType := "image/png" -}}
+{{- if hasPrefix $src "http" -}}
+  {{- $ogURL = $src -}}
+{{- else -}}
+  {{- with resources.Get (strings.TrimPrefix "/" $src) -}}
+    {{- $r := .Fill "1200x630 Center q82" -}}
+    {{- $ogURL = $r.Permalink -}}
+    {{- $ogW = $r.Width -}}{{- $ogH = $r.Height -}}
+    {{- $ogType = $r.MediaType.Type -}}
+  {{- else -}}
+    {{/* static/ or content/ path: passthrough, no processing available */}}
+    {{- $ogURL = $src | absURL -}}
+    {{- if or (hasSuffix (lower $src) ".jpg") (hasSuffix (lower $src) ".jpeg") -}}
+      {{- $ogType = "image/jpeg" -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{/* ---------- dates ---------- */}}
+{{- $pub := "" -}}{{- $mod := "" -}}
+{{- if not $p.Date.IsZero -}}{{- $pub = $p.Date.Format "2006-01-02T15:04:05Z07:00" -}}{{- end -}}
+{{- if not $p.Lastmod.IsZero -}}{{- $mod = $p.Lastmod.Format "2006-01-02T15:04:05Z07:00" -}}{{- end -}}
+
+{{- return dict
+      "title"       $title
+      "description" $desc
+      "canonical"   $canonical
+      "ogImage"     $ogURL
+      "ogWidth"     $ogW
+      "ogHeight"    $ogH
+      "ogType"      $ogType
+      "published"   $pub
+      "modified"    $mod
+      "robots"      $policy.robots
+      "indexable"   $policy.indexable
+      "lang"        ($p.Params.lang | default ($seo.lang | default "en"))
+      "ogLocale"    ($p.Params.ogLocale | default ($seo.ogLocale | default "en_GB"))
+-}}

@@ -5,6 +5,12 @@ slug = "eu-ai-act-2024"
 tags = ["AI", "Law", "future"]
 categories = ["Product"]
 series = ["Law", "Opinion"]
+
+# Retired duplicate of content/posts/. Kept on disk, no longer rendered;
+# /product/* 301s to /posts/* in netlify.toml.
+[_build]
+  render = "never"
+  list = "never"
 +++
 <div align="right">
 

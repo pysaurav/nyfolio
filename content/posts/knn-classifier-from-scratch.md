@@ -1,7 +1,7 @@
 +++
 date = "2020-05-10"
 title = "KNN Classifier Implementing from Scratch"
-description = "All you need to know about KNN classifier."
+description = "Implementing a k-nearest-neighbours classifier from scratch in Python, without scikit-learn, to show what the algorithm is actually doing under the hood."
 tags = ["MachineLearning", "KNN","Classification"]
 categories = ["Tech"]
 +++

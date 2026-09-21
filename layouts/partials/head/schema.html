@@ -1,0 +1,179 @@
+{{/* layouts/partials/head/schema.html
+
+     One @graph per page. Person is defined once and referenced everywhere else
+     by @id — duplicate Person nodes are the most common cause of entity
+     resolution failing, which is what decides whether an answer engine can say
+     "Saurav Pandey" and mean one consistent person.
+
+     Two escaping traps, both real:
+       1. Never hand-write JSON with {{ }} interpolation. A title containing an
+          apostrophe or quote ("EU's AI Act") produces invalid JSON and the whole
+          block is discarded silently. Build maps with dict/slice instead.
+       2. `jsonify` alone is not enough. Go's html/template treats
+          application/ld+json as a JS context and applies jsEscaper, which wraps
+          the serialised JSON in quotes — turning the object into a string
+          literal. `safeJS` after `jsonify` is what prevents that.
+*/}}
+{{- $p := . -}}
+{{- $m := partial "head/vars.html" $p -}}
+{{- $seo := site.Params.seo -}}
+{{- $root := absURL "/" -}}
+{{- $personID := printf "%s#person" $root -}}
+{{- $siteID := printf "%s#website" $root -}}
+
+{{/* ============================ Person ============================ */}}
+{{- $address := dict
+      "@type"           "PostalAddress"
+      "addressLocality" "Oslo"
+      "addressCountry"  "NO"
+-}}
+{{- $person := dict
+      "@type"         "Person"
+      "@id"           $personID
+      "name"          $seo.person.name
+      "givenName"     $seo.person.givenName
+      "familyName"    $seo.person.familyName
+      "url"           $root
+      "jobTitle"      $seo.person.jobTitle
+      "description"   $seo.person.bio
+      "image"         (absURL $seo.person.image)
+      "email"         (printf "mailto:%s" $seo.person.email)
+      "knowsAbout"    $seo.person.knowsAbout
+      "knowsLanguage" $seo.person.knowsLanguage
+      "sameAs"        $seo.sameAs
+      "address"       $address
+      "homeLocation"  (dict "@type" "Place" "name" "Oslo, Norway" "address" $address)
+-}}
+{{- with $seo.person.worksFor -}}
+  {{- $person = merge $person (dict "worksFor"
+        (dict "@type" "Organization" "name" .name "url" .url)) -}}
+{{- end -}}
+
+{{/* ============================ WebSite ============================ */}}
+{{- $website := dict
+      "@type"       "WebSite"
+      "@id"         $siteID
+      "url"         $root
+      "name"        site.Title
+      "description" site.Params.description
+      "inLanguage"  ($seo.lang | default "en")
+      "publisher"   (dict "@id" $personID)
+      "author"      (dict "@id" $personID)
+-}}
+
+{{- $graph := slice $person $website -}}
+
+{{/* ============================ BlogPosting ============================ */}}
+{{- if and $p.IsPage (eq $p.Section "posts") -}}
+  {{- $post := dict
+        "@type"            "BlogPosting"
+        "@id"              (printf "%s#article" $p.Permalink)
+        "isPartOf"         (dict "@id" $siteID)
+        "mainEntityOfPage" (dict "@type" "WebPage" "@id" $p.Permalink)
+        "url"              $p.Permalink
+        "headline"         ($p.Title | plainify | truncate 110 "")
+        "name"             ($p.Title | plainify)
+        "description"      $m.description
+        "author"           (dict "@id" $personID)
+        "publisher"        (dict "@id" $personID)
+        "inLanguage"       $m.lang
+        "wordCount"        $p.WordCount
+        "image"            (slice $m.ogImage)
+  -}}
+  {{- with $m.published -}}{{- $post = merge $post (dict "datePublished" .) -}}{{- end -}}
+  {{- with $m.modified -}}{{- $post = merge $post (dict "dateModified" .) -}}{{- end -}}
+  {{- with $p.Params.tags -}}
+    {{- $post = merge $post (dict "keywords" (delimit . ", ")) -}}
+  {{- end -}}
+  {{- with $p.Params.series -}}
+    {{- $post = merge $post (dict "articleSection" (index . 0)) -}}
+  {{- end -}}
+  {{- $graph = $graph | append $post -}}
+{{- end -}}
+
+{{/* ============================ Service ============================
+     Service, not ProfessionalService. The latter is a subtype of LocalBusiness,
+     which asserts a physical place of business with opening hours and a street
+     address. Claiming that without a verifiable premises buys nothing (the
+     local pack needs a Google Business Profile regardless) and risks a trust
+     penalty. Service + provider->Person + areaServed is the honest model and
+     works for international clients, where LocalBusiness actively hurts.
+
+     Opt in with `schemaType = "service"` in front matter.
+*/}}
+{{- if eq $p.Params.schemaType "service" -}}
+  {{- $offers := slice -}}
+  {{- range $p.Params.services -}}
+    {{- $offers = $offers | append (dict
+          "@type" "Offer"
+          "itemOffered" (dict
+            "@type"       "Service"
+            "name"        .name
+            "description" .description)) -}}
+  {{- end -}}
+  {{- $service := dict
+        "@type"       "Service"
+        "@id"         (printf "%s#service" $p.Permalink)
+        "name"        ($p.Params.serviceName | default $p.Title)
+        "description" $m.description
+        "url"         $p.Permalink
+        "serviceType" ($p.Params.serviceType | default "AI consulting")
+        "provider"    (dict "@id" $personID)
+        "areaServed"  (slice
+                        (dict "@type" "Country" "name" "Norway")
+                        (dict "@type" "Place" "name" "Worldwide"))
+        "audience"    (dict "@type" "BusinessAudience" "name" "Technology and product organisations")
+  -}}
+  {{- if $offers -}}
+    {{- $service = merge $service (dict "hasOfferCatalog" (dict
+          "@type"           "OfferCatalog"
+          "name"            ($p.Params.serviceName | default $p.Title)
+          "itemListElement" $offers)) -}}
+  {{- end -}}
+  {{- $graph = $graph | append $service -}}
+{{- end -}}
+
+{{/* ============================ FAQPage ============================
+     The highest-leverage block for answer-engine citation: a question and a
+     quotable answer, already structured. Opt in via `faq` front matter. */}}
+{{- with $p.Params.faq -}}
+  {{- $qs := slice -}}
+  {{- range . -}}
+    {{- $qs = $qs | append (dict
+          "@type"          "Question"
+          "name"           .q
+          "acceptedAnswer" (dict "@type" "Answer" "text" (.a | markdownify | plainify))) -}}
+  {{- end -}}
+  {{- $graph = $graph | append (dict
+        "@type"      "FAQPage"
+        "@id"        (printf "%s#faq" $p.Permalink)
+        "isPartOf"   (dict "@id" $siteID)
+        "mainEntity" $qs) -}}
+{{- end -}}
+
+{{/* ============================ BreadcrumbList ============================ */}}
+{{- if not $p.IsHome -}}
+  {{- $items := slice -}}
+  {{- $pos := 0 -}}
+  {{- range $p.Ancestors.Reverse -}}
+    {{- $pos = add $pos 1 -}}
+    {{- $items = $items | append (dict
+          "@type"    "ListItem"
+          "position" $pos
+          "name"     (cond .IsHome "Home" .Title)
+          "item"     .Permalink) -}}
+  {{- end -}}
+  {{- $pos = add $pos 1 -}}
+  {{- $items = $items | append (dict
+        "@type"    "ListItem"
+        "position" $pos
+        "name"     ($p.Title | plainify)
+        "item"     $p.Permalink) -}}
+  {{- $graph = $graph | append (dict
+        "@type"           "BreadcrumbList"
+        "@id"             (printf "%s#breadcrumb" $p.Permalink)
+        "itemListElement" $items) -}}
+{{- end -}}
+
+{{- $ld := dict "@context" "https://schema.org" "@graph" $graph -}}
+<script type="application/ld+json">{{ $ld | jsonify | safeJS }}</script>

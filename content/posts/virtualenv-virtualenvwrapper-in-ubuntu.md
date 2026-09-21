@@ -2,7 +2,10 @@
 date = "2019-08-20"
 title = "Configuring virtualenv and virtualenvwrapper in ubuntu"
 slug = "virtualenv-virtualenvwrapper-in-ubuntu" 
-tags = ["hugo", "i18n"]
+description = "Setting up virtualenv and virtualenvwrapper on Ubuntu: installing both, creating isolated environments, and the .bashrc lines that make workon behave."
+# Tags were ["hugo", "i18n"] — leftovers from a theme example, unrelated to a
+# post about Python environments. They were generating meaningless tag pages.
+tags = ["python", "tooling", "ubuntu"]
 categories = ["Tech"]
 +++
 

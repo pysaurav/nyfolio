@@ -1,0 +1,33 @@
+# {{ site.Params.seo.person.name }} — {{ site.Params.seo.person.jobTitle }}, Oslo
+
+> {{ site.Params.seo.person.bio }}
+> Works with Norwegian companies and international clients. Engagements are
+> selective. Contact: {{ site.Params.seo.person.email }}
+
+## What I do
+- AI in the product: forecasting, computer vision and LLM features that survive real users and real volume.
+- AI in the delivery: wiring AI into the software development lifecycle — spec, code, review, test, docs, operations.
+- AI you can defend: EU AI Act readiness, GDPR, bias and fairness review.
+
+Based in Oslo, Norway (CET). Remote worldwide. Working languages: English, Norwegian.
+
+## Writing
+{{ range (where site.RegularPages "Section" "posts").ByDate.Reverse -}}
+{{- $policy := partial "head/robots-policy.html" . -}}
+{{- if $policy.indexable -}}
+{{- $m := partial "head/vars.html" . }}
+- [{{ .Title }}]({{ .Permalink }}) ({{ .Date.Format "2006-01-02" }}): {{ $m.description }}
+{{ end -}}
+{{- end }}
+## Published research
+- Anomaly-based Intrusion Detection with Machine Learning: {{ "library/AnomalybasedIDS.pdf" | absURL }}
+- Blockchain-powered Supply Chain (IJAE Vol.2 No.2, 2019): http://ictaes.org/wp-content/uploads/2019/09/3_IJAE_Vol2No2.pdf
+
+## Elsewhere
+{{ range site.Params.seo.sameAs -}}
+- {{ . }}
+{{ end }}
+## Machine-readable
+- Full-text index of every page: {{ "index.json" | absURL }}
+- RSS: {{ "index.xml" | absURL }}
+- Sitemap: {{ "sitemap.xml" | absURL }}

@@ -1,30 +1,85 @@
+# --cleanDestinationDir wipes the publish dir before each build, so stale or
+# previously committed artefacts in public/ can never ship and shadow a redirect.
 [build]
-publish = "public"
-command = "hugo"
+  publish = "public"
+  command = "hugo --gc --minify --cleanDestinationDir"
 
+[build.environment]
+  HUGO_VERSION = "0.125.4"
+
+# Production takes its baseURL from config.yaml, never from a -b flag.
 [context.production.environment]
-HUGO_VERSION = "v0.125.4"
-HUGO_ENV = "production"
-HUGO_ENABLEGITINFO = "true"
+  HUGO_ENV = "production"
+  HUGO_ENABLEGITINFO = "true"
 
-[context.split1]
-command = "hugo --gc --minify --enableGitInfo"
-
-[context.split1.environment]
-HUGO_VERSION = "v0.125.4"
-HUGO_ENV = "production"
-
+# HUGO_ENV=preview is load-bearing: `hugo` reports hugo.IsProduction == true in
+# every context unless told otherwise. Without this, deploy previews emit
+# indexable canonicals on *.netlify.app and can outrank the real site.
 [context.deploy-preview]
-command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
+  command = "hugo --gc --minify --buildFuture --cleanDestinationDir -b $DEPLOY_PRIME_URL"
 
 [context.deploy-preview.environment]
-HUGO_VERSION = "v0.125.4"
+  HUGO_ENV = "preview"
 
 [context.branch-deploy]
-command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
+  command = "hugo --gc --minify --cleanDestinationDir -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy.environment]
-HUGO_VERSION = "v0.125.4"
+  HUGO_ENV = "preview"
 
-[context.next.environment]
-HUGO_ENABLEGITINFO = "true"
+# ---------------------------------------------------------------------------
+# Redirects — retiring duplicate and legacy URLs onto the canonical /posts/ tree.
+# Specific rules must precede wildcards: Netlify applies the first match.
+# These fire only when no file exists at the path, which is why the duplicate
+# pages are set to `_build.render = "never"` in their front matter.
+# ---------------------------------------------------------------------------
+
+# Legacy slug that never matched its canonical twin.
+[[redirects]]
+  from = "/product/ai-act-eu/"
+  to = "/posts/eu-ai-act-2024/"
+  status = 301
+
+# Retired duplicate sections.
+[[redirects]]
+  from = "/tech/*"
+  to = "/posts/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/curiosity/*"
+  to = "/posts/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/product/*"
+  to = "/posts/:splat"
+  status = 301
+
+# Legacy section names still present in older builds.
+[[redirects]]
+  from = "/blogs/*"
+  to = "/posts/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/stories/*"
+  to = "/posts/:splat"
+  status = 301
+
+# Theme example stubs.
+[[redirects]]
+  from = "/snippets/*"
+  to = "/posts/"
+  status = 301
+
+# Placeholder page replaced by the consulting page.
+[[redirects]]
+  from = "/projects"
+  to = "/ai-consulting/"
+  status = 301
+
+[[redirects]]
+  from = "/projects/*"
+  to = "/ai-consulting/"
+  status = 301

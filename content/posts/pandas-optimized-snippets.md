@@ -1,7 +1,7 @@
 +++
 date = "2020-08-19"
 title = "Pandas Optimized Code Snippets"
-description = "Will gradually append optmized pandas code in this post"
+description = "A short reference for cleaning pandas columns with regex — stripping bracketed text out of values without looping over rows."
 tags = ["pandas", "optimized","data"]
 categories = ["Tech"]
 +++

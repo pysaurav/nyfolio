@@ -1,0 +1,118 @@
+/* Sections added for the AI-consulting positioning: pillars, selected work,
+   closing CTA. Picked up automatically by the resources.Match glob in
+   layouts/partials/head.html — the 08- prefix sets cascade order. */
+
+/* ---------- What I do ---------- */
+.pillar-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--s-5);
+  margin-top: var(--s-5);
+}
+
+.pillar-num {
+  font-size: var(--fs-caption);
+  color: var(--scarlet-600);
+  letter-spacing: 0.08em;
+}
+
+.pillar-name {
+  font-family: var(--display);
+  font-size: var(--fs-heading);
+  line-height: var(--lh-heading);
+  font-weight: 600;
+  margin-top: var(--s-1);
+}
+
+.pillar-body {
+  margin-top: var(--s-2);
+  color: var(--ink-500);
+  line-height: var(--lh-body);
+}
+
+/* ---------- Why listen to me ----------
+   Two columns so each claim gets room to land. The claim line carries the
+   weight; the scarlet rule above it is the one accent per card. */
+.proof-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--s-5) var(--s-6);
+  margin-top: var(--s-5);
+}
+
+.proof {
+  padding-top: var(--s-3);
+  border-top: 2px solid var(--scarlet-500);
+}
+
+.proof-claim {
+  font-family: var(--display);
+  font-size: var(--fs-heading);
+  line-height: var(--lh-heading);
+  font-weight: 600;
+}
+
+.proof-body {
+  margin-top: var(--s-2);
+  color: var(--ink-500);
+  line-height: var(--lh-body);
+}
+
+.proof-link {
+  margin-top: var(--s-2);
+  font-size: var(--fs-caption);
+}
+
+.proof-link a { color: var(--scarlet-600); }
+
+/* ---------- Selected work ---------- */
+.work-list {
+  margin-top: var(--s-5);
+  border-top: 1px solid var(--bone-300);
+}
+
+.work-item {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: var(--s-5);
+  padding-block: var(--s-4);
+  border-bottom: 1px solid var(--bone-300);
+}
+
+.work-name {
+  font-family: var(--display);
+  font-size: var(--fs-heading);
+  line-height: var(--lh-heading);
+  font-weight: 600;
+}
+
+.work-meta {
+  margin-top: var(--s-1);
+  font-size: var(--fs-caption);
+  color: var(--ink-400);
+}
+
+.work-body {
+  color: var(--ink-500);
+  line-height: var(--lh-body);
+}
+
+/* ---------- Closing note ----------
+   Was ink-300, which is tuned for the dark hero. This section now sits on the
+   bone ground, so it takes the same body colour as the rest of the page. */
+.cta-body {
+  margin-top: var(--s-3);
+  color: var(--ink-500);
+  line-height: var(--lh-body);
+}
+
+.cta-body a {
+  color: var(--scarlet-600);
+}
+
+/* ---------- Narrow screens ---------- */
+@media (max-width: 860px) {
+  .pillar-grid { grid-template-columns: 1fr; gap: var(--s-4); }
+  .work-item { grid-template-columns: 1fr; gap: var(--s-2); }
+  .proof-grid { grid-template-columns: 1fr; gap: var(--s-4); }
+}

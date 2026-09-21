@@ -2,10 +2,14 @@
 date = "2025-11-16"
 title = "Using AI for recruitment in Norway? Here is how algorithms inherit our biases"
 slug = "ai-discrimination-norwegian-hiring" 
+description = "Norwegian employers are adopting AI screening tools. Research from UiO and the Equality Ombud shows how these systems inherit existing hiring bias — and then amplify it."
 tags = ["AI", "Ethics", "Machine Learning", "Norway"]
 categories = ["Product"]
 series = ["AI Ethics", "Opinion"]
-image = "/library/ai_ethics/ai_ethics_1.png"
+# Was /library/ai_ethics/ai_ethics_1.png — a 3.5 MB file that no template
+# rendered, but which would have become this post's og:image. LinkedIn times
+# out fetching images that size. This is the 1200x630 branded card instead.
+images = ["/brand/og-ai-hiring-norway.png"]
 mermaid = true
 +++
 

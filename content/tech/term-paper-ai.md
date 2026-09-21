@@ -5,6 +5,12 @@ slug = "evolving-ai-on-human-race"
 tags = ["AI", "human", "future"]
 categories = []
 series = ["AI"]
+
+# Retired duplicate of content/posts/. Kept on disk, no longer rendered;
+# /tech/* 301s to /posts/* in netlify.toml.
+[_build]
+  render = "never"
+  list = "never"
 +++
 
 {{< alignment >}}

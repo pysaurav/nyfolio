@@ -1,6 +1,7 @@
 +++ 
 date = "2020-08-16"
 title = "Polyphasic Sleep Cycle"
+description = "Biphasic, Dymaxion, Uberman and Everyman sleep schedules — and Ekirch's evidence that segmented sleep was normal before the Industrial Revolution."
 tags = ["tesla", "nikola", "da vinci","sleep"]
 categories = ["Curiosity"]
 +++

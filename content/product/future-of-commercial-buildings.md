@@ -5,6 +5,12 @@ slug = "future-of-commercial-real-estate"
 tags = ["AI", "culture", "future"]
 categories = ["Product"]
 series = ["Business", "Opinion"]
+
+# Retired duplicate of content/posts/. Kept on disk, no longer rendered;
+# /product/* 301s to /posts/* in netlify.toml.
+[_build]
+  render = "never"
+  list = "never"
 +++
 <div align="right">
 
