@@ -1,5 +1,5 @@
 <article class="post-card">
   {{ partial "meta.html" . }}
   <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-  <p>{{ .Summary | plainify | truncate 180 }}</p>
+  <p>{{ .Summary | plainify | htmlUnescape | truncate 180 }}</p>
 </article>

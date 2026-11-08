@@ -1,0 +1,20 @@
+{{/* Profiles with brand marks. Reuses hero.socialLinks so URLs live in one place.
+     Usage: {{< elsewhere linkedin="the best place for a quick conversation" >}} */}}
+{{- $paths := partial "brand-paths.html" . -}}
+{{- $names := dict "github" "GitHub" "linkedin" "LinkedIn" "x-twitter" "X" "medium" "Medium" -}}
+{{- $handles := dict "github" "github.com/pysaurav" "linkedin" "linkedin.com/in/pysaurav" "x-twitter" "x.com/pysaurav" "medium" "medium.com/@pysaurav" -}}
+<ul class="elsewhere">
+{{- $urls := dict -}}
+{{- range site.Params.hero.socialLinks.fontAwesomeIcons }}{{ $urls = merge $urls (dict (replace (index (split .icon " ") 1) "fa-" "") .url) }}{{ end -}}
+{{- range slice "linkedin" "github" "x-twitter" "medium" }}
+  {{- $key := . }}
+  {{- with index $urls $key }}{{ $url := . }}
+  <li>
+    <a href="{{ $url }}" rel="me noopener">
+      <span class="elsewhere-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="{{ index $paths $key }}"/></svg></span>
+      <span class="elsewhere-text"><b>{{ index $names $key }}</b><span class="mono">{{ index $handles $key }}</span>{{ with $.Get (replace $key "-" "") }}<em>{{ . }}</em>{{ end }}</span>
+    </a>
+  </li>
+  {{- end }}
+{{- end }}
+</ul>

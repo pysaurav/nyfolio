@@ -1,7 +1,7 @@
 +++
 date = "2026-11-08"
-title = "AI Doesn't Lose Sleep. That's the Problem."
-slug = "ai-doesnt-lose-sleep"
+title = "AI Can Calculate a Risk. It Can’t Carry One."
+slug = "ai-can-calculate-a-risk-it-cant-carry-one"
 description = "AI helped us replace a 150,000 kroner a year software licence in a few evenings. What becomes scarce when building gets cheap, and the sleep test every leader should run."
 tags = ["AI", "Leadership", "Accountability", "Sleep test"]
 categories = ["Opinion"]

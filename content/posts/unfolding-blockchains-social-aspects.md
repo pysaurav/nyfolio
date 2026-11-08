@@ -9,6 +9,9 @@ description = "Written during the Facebook Libra moment: blockchain read as a so
 tags = ["blockchain", "social", "uncertainties"]
 categories = ["Tech"]
 series = ["Blockchain"]
+# Archived 2026-11: still reachable by URL, hidden from lists and the homepage.
+[_build]
+  list = "never"
 +++
 
 With Facebook’s Libra, the crypto-community around the globe has yet more things to talk about, if not be hopeful. The crypto-currencies as well as its underlying blockchain technology together is slowly yet steadily penetrating human life, at least in terms of things to keep an eye on. The same way e-commerce websites were making buzz in the 90’s.

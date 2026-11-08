@@ -1,0 +1,15 @@
+{{ with site.Params.press }}{{ if .enable }}
+{{/* Third-party validation, kept quiet: one line per publication, under the hero. */}}
+<section class="press wrap" aria-label="{{ .label }}">
+  <p class="eyebrow">{{ .label }}</p>
+  <ul class="press-list">
+    {{ range .items }}{{ $alt := .altText | default "English version" }}
+    <li class="press-item">
+      <a class="press-outlet" href="{{ .url }}" rel="noopener">{{ .outlet }}</a>
+      <a class="press-title" href="{{ .url }}" rel="noopener">{{ .title }}</a>
+      <span class="press-meta mono">{{ .date }}{{ with .altUrl }} · <a href="{{ . }}">{{ $alt }}</a>{{ end }}</span>
+    </li>
+    {{ end }}
+  </ul>
+</section>
+{{ end }}{{ end }}

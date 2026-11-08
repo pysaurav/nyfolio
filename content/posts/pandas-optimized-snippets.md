@@ -4,6 +4,9 @@ title = "Pandas Optimized Code Snippets"
 description = "A short reference for cleaning pandas columns with regex — stripping bracketed text out of values without looping over rows."
 tags = ["pandas", "optimized","data"]
 categories = ["Tech"]
+# Archived 2026-11: still reachable by URL, hidden from lists and the homepage.
+[_build]
+  list = "never"
 +++
 
 Here are the pandas snippets that will make data cleaning easier. These will make the process easier and faster.
