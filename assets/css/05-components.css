@@ -76,3 +76,14 @@
 .site-footer { background: var(--ink-900); color: var(--ink-300); padding-block: var(--s-6); }
 .site-footer .mark { width: 30px; margin-bottom: var(--s-3); }
 .site-footer a { color: var(--teal-500); }
+/* elsewhere list — profile rows with brand marks (contact page) */
+.elsewhere { list-style: none; padding: 0; margin: var(--s-3) 0; display: grid; gap: var(--s-1); }
+.elsewhere li { margin: 0; }
+.elsewhere a { display: flex; align-items: center; gap: var(--s-2); padding: 12px 16px; border: 1px solid var(--bone-300); border-radius: var(--r-card); text-decoration: none; color: var(--ink-900); transition: border-color var(--t-ui) var(--ease), background var(--t-ui) var(--ease); }
+.elsewhere a:hover { border-color: var(--teal-500); background: var(--bone-50); }
+.elsewhere-icon { width: 40px; height: 40px; flex: none; display: grid; place-items: center; border-radius: 50%; background: var(--ink-900); color: var(--bone-100); }
+.elsewhere-icon svg { width: 18px; height: 18px; fill: currentColor; }
+.elsewhere-text { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 12px; }
+.elsewhere-text b { font-weight: 600; }
+.elsewhere-text .mono { font-size: var(--fs-caption); color: var(--ink-400); }
+.elsewhere-text em { flex-basis: 100%; font-style: normal; font-size: 15px; color: var(--ink-500); }

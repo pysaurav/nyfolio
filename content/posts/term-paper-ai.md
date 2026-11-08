@@ -6,6 +6,9 @@ description = "A 2020 term paper on artificial intelligence: its history from Tu
 tags = ["AI", "human", "future"]
 categories = ["Tech"]
 series = ["AI"]
+# Archived 2026-11: still reachable by URL, hidden from lists and the homepage.
+[_build]
+  list = "never"
 +++
 
 {{< alignment >}}

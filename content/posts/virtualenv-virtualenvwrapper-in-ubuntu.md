@@ -7,6 +7,9 @@ description = "Setting up virtualenv and virtualenvwrapper on Ubuntu: installing
 # post about Python environments. They were generating meaningless tag pages.
 tags = ["python", "tooling", "ubuntu"]
 categories = ["Tech"]
+# Archived 2026-11: still reachable by URL, hidden from lists and the homepage.
+[_build]
+  list = "never"
 +++
 
 We all must have faced the situation where version of our packages don't match and takes up hours of our time to get solved. A virtual Environment is an isolates working environment of a Python project so that other projects aren't hampered.

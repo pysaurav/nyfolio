@@ -4,6 +4,9 @@ title = "Polyphasic Sleep Cycle"
 description = "Biphasic, Dymaxion, Uberman and Everyman sleep schedules — and Ekirch's evidence that segmented sleep was normal before the Industrial Revolution."
 tags = ["tesla", "nikola", "da vinci","sleep"]
 categories = ["Curiosity"]
+# Archived 2026-11: still reachable by URL, hidden from lists and the homepage.
+[_build]
+  list = "never"
 +++
 
 Sleep is one of our basic daily needs. We all spend a substantial amount of our lifetime sleeping. For a common person, one-third of our overall lifetime is spent sleeping. While it is a physical need and keeps us healthy, too much sleep can be a barrier in our productivity and what we can achieve in our life.

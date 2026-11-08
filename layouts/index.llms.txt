@@ -1,8 +1,8 @@
 # {{ site.Params.seo.person.name }} — {{ site.Params.seo.person.jobTitle }}, Oslo
 
 > {{ site.Params.seo.person.bio }}
-> Works with Norwegian companies and international clients. Engagements are
-> selective. Contact: {{ site.Params.seo.person.email }}
+> Open to talks, workshops and conversations with leaders taking AI from pilot
+> to production. Contact: {{ site.Params.seo.person.email }}
 
 ## What I do
 - AI in the product: forecasting, computer vision and LLM features that survive real users and real volume.

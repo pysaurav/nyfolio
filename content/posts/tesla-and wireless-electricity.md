@@ -4,6 +4,9 @@ title = "Nikola Tesla and Wireless Electricity"
 description = "Tesla patented the transmission of electricity through a natural medium in 1905. More than a century later we still have not built it. A short note on why."
 tags = ["tesla", "nikola", "wireless","electricity","wiet"]
 categories = ["Curiosity"]
+# Archived 2026-11: still reachable by URL, hidden from lists and the homepage.
+[_build]
+  list = "never"
 +++
 
 "Why dont we have wireless electricity yet?", the question bother me now.

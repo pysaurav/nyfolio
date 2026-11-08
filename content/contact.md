@@ -1,20 +1,19 @@
 +++
 title = "Contact"
 slug = "contact"
-description = "Get in touch with Saurav Pandey. Backend engineer and AI consultant based in Oslo, Norway. Email, LinkedIn, GitHub."
+description = "Contact Saurav Pandey, Technical Product Manager at Izy in Oslo. Talks, workshops and conversations about taking AI from pilot to production. Email post@saurav.no."
 +++
 
-The fastest way to reach me is email: **[post@saurav.no](mailto:post@saurav.no)**
+## Let's talk about the AI you want in production.
 
-If you are writing about an advisory engagement, it helps to include what you are
-building, where it is stuck, and roughly when you need it resolved. See
-[AI consulting](/ai-consulting/) for how engagements usually work.
+Talks, workshops, or a second opinion on a use case stuck between pilot and
+production. Tell me what you are building and where it is stuck. I answer every
+email myself.
+
+<p class="btn-row"><a class="btn btn-primary" href="mailto:post@saurav.no?subject=AI%20in%20production&body=Hi%20Saurav%2C%0A%0AI%27m%20%5Bname%5D%20at%20%5Bcompany%5D.%20%0A%0AWhat%20we%27re%20working%20on%3A%20%5B...%5D%0AWhere%20it%27s%20stuck%3A%20%5B...%5D%0A%0AThanks%2C%0A">Email post@saurav.no</a></p>
 
 ## Elsewhere
 
-- [LinkedIn](https://www.linkedin.com/in/pysaurav/), the best place for a quick conversation
-- [GitHub](https://github.com/pysaurav/)
-- [X](https://x.com/pysaurav)
-- [Medium](https://medium.com/@pysaurav)
+{{< elsewhere linkedin="The best place for a quick conversation" >}}
 
-Based in Oslo, Norway (CET). I work in English and Norwegian.
+Oslo, Norway (CET). English and Norwegian.

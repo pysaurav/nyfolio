@@ -4,6 +4,9 @@ title = "KNN Classifier Implementing from Scratch"
 description = "Implementing a k-nearest-neighbours classifier from scratch in Python, without scikit-learn, to show what the algorithm is actually doing under the hood."
 tags = ["MachineLearning", "KNN","Classification"]
 categories = ["Tech"]
+# Archived 2026-11: still reachable by URL, hidden from lists and the homepage.
+[_build]
+  list = "never"
 +++
 
 KNN is a supervised algorithm that classifies new cases based on similarity measure from its neighbors. 

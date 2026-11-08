@@ -116,3 +116,17 @@
   .work-item { grid-template-columns: 1fr; gap: var(--s-2); }
   .proof-grid { grid-template-columns: 1fr; gap: var(--s-4); }
 }
+
+/* ---------- press strip ("Published in") ---------- */
+.press { padding-block: var(--s-4); border-bottom: 1px solid var(--bone-300); }
+.press .eyebrow { color: var(--gold-700); }
+.press-list { list-style: none; margin: var(--s-1) 0 0; padding: 0; display: grid; gap: var(--s-1); }
+.press-item { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px var(--s-2); }
+.press-outlet { font-family: var(--display); font-weight: 600; font-size: var(--fs-heading); color: var(--ink-900); }
+.press-title { font-family: var(--display); font-style: italic; font-size: 20px; color: var(--ink-700); text-decoration: none; border-bottom: 1px solid var(--bone-300); }
+.press-title:hover { color: var(--scarlet-600); border-color: currentColor; }
+.press-meta { font-size: var(--fs-caption); color: var(--ink-400); }
+.press-meta a { color: var(--teal-700); }
+a.press-outlet { text-decoration: none; }
+a.press-outlet:hover { color: var(--scarlet-600); }
+.on-ink .measure a { color: var(--bone-100); text-decoration: underline; text-decoration-color: var(--gold-600); text-underline-offset: 3px; }
