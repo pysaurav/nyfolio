@@ -15,13 +15,6 @@ series = ["AI Ethics", "Opinion"]
 # out fetching images that size. This is the 1200x630 branded card instead.
 images = ["/brand/og-ai-hiring-norway.png"]
 mermaid = true
-
-[[translations]]
-  lang = "en"
-  href = "/posts/ai-discrimination-norwegian-hiring/"
-[[translations]]
-  lang = "nb-NO"
-  href = "/posts/ki-diskriminering-rekruttering-norge/"
 +++
 
 AI is changing how companies hire people. It's happening everywhere, including Norway.

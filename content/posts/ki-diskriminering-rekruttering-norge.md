@@ -1,5 +1,8 @@
 +++
 date = "2026-11-09"
+# Draft until it is published next week. Before publishing: set the date,
+# remove draft, and add the nb-NO translations pair back to the English post.
+draft = true
 title = "Bruker dere KI i rekruttering? Slik arver algoritmene våre fordommer"
 seoTitle = "KI i rekruttering: algoritmer arver fordommer"
 slug = "ki-diskriminering-rekruttering-norge"

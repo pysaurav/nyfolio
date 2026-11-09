@@ -89,7 +89,7 @@ Jeg har KI i drift, ikke i lysbilder. I Izy leder jeg backenden og KI-laget bak
 flere hundre tusen transaksjoner i måneden: selvbetjent kasse med datasyn og
 prognoser for matsvinn, i bruk i norske næringsbygg. Åtte år med backend,
 maskinlæring og produkt, og formell utdanning i KI-etikk. Jeg har også skrevet
-om [skjevheter når KI brukes i rekruttering i Norge](/posts/ki-diskriminering-rekruttering-norge/).
+om [skjevheter når KI brukes i rekruttering i Norge](/posts/ai-discrimination-norwegian-hiring/) (på engelsk).
 
 ## Spørsmål
 
