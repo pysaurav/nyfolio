@@ -1,7 +1,11 @@
 +++ 
 date = "2025-11-16"
 title = "Using AI for recruitment in Norway? Here is how algorithms inherit our biases"
-slug = "ai-discrimination-norwegian-hiring" 
+slug = "ai-discrimination-norwegian-hiring"
+seoTitle = "AI in Recruitment in Norway: How Bias Gets Inherited"
+lang = "en"
+ogLocale = "en_GB"
+xdefault = "/posts/ai-discrimination-norwegian-hiring/"
 description = "Norwegian employers are adopting AI screening tools. Research from UiO and the Equality Ombud shows how these systems inherit existing hiring bias — and then amplify it."
 tags = ["AI", "Ethics", "Machine Learning", "Norway"]
 categories = ["Product"]
@@ -11,6 +15,13 @@ series = ["AI Ethics", "Opinion"]
 # out fetching images that size. This is the 1200x630 branded card instead.
 images = ["/brand/og-ai-hiring-norway.png"]
 mermaid = true
+
+[[translations]]
+  lang = "en"
+  href = "/posts/ai-discrimination-norwegian-hiring/"
+[[translations]]
+  lang = "nb-NO"
+  href = "/posts/ki-diskriminering-rekruttering-norge/"
 +++
 
 AI is changing how companies hire people. It's happening everywhere, including Norway.

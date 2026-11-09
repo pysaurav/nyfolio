@@ -1,8 +1,8 @@
 +++
-title = "AI consulting"
+title = "AI consulting in Oslo and Norway"
 slug = "ai-consulting"
-seoTitle = "AI Consulting in Oslo: From Pilot to Production"
-description = "Your people already use AI. Your business does not yet. I help Norwegian teams take one AI use case from pilot to production, with a named owner at every decision that cannot be undone."
+seoTitle = "AI Consultant in Oslo, Norway: Pilot to Production"
+description = "AI consultant in Oslo, Norway. I help Norwegian teams take one AI use case from pilot to production, with a named owner behind every irreversible decision."
 lang = "en"
 ogLocale = "en_GB"
 xdefault = "/ai-consulting/"

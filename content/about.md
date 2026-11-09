@@ -1,7 +1,8 @@
 +++
 title = "About"
+seoTitle = "About: AI in Production and Who Carries the Risk"
 slug = "about"
-description = "Saurav Pandey. Technical Product Manager at Izy in Oslo. I build AI that runs in production, and write about who carries the risk when it fails. Author of the sleep test."
+description = "Saurav Pandey. Technical Product Manager at Izy in Oslo. I build AI that runs in production, and write about who carries the risk when it fails. Creator of the sleep test."
 lang = "en"
 ogLocale = "en_GB"
 xdefault = "/about/"
