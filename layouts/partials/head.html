@@ -50,7 +50,7 @@
 <meta property="og:image:width" content="{{ $m.ogWidth }}">
 <meta property="og:image:height" content="{{ $m.ogHeight }}">
 <meta property="og:image:type" content="{{ $m.ogType }}">
-<meta property="og:image:alt" content="{{ .Params.ogImageAlt | default (printf "%s — %s" site.Params.seo.person.name site.Params.seo.person.jobTitle) }}">
+<meta property="og:image:alt" content="{{ .Params.ogImageAlt | default (cond .IsHome (printf "%s, %s" site.Params.seo.person.name site.Params.seo.person.jobTitle) (.Title | plainify)) }}">
 {{- if and .IsPage (eq .Section "posts") }}
 <meta property="og:type" content="article">
 {{- with $m.published }}

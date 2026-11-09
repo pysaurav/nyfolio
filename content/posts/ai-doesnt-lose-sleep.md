@@ -2,7 +2,7 @@
 date = "2026-11-08"
 title = "AI Can Calculate a Risk. It Can’t Carry One."
 slug = "ai-can-calculate-a-risk-it-cant-carry-one"
-description = "AI helped us replace a 150,000 kroner a year software licence in a few evenings. What becomes scarce when building gets cheap, and the sleep test every leader should run."
+description = "AI replaced a 150,000 kroner a year licence in a few evenings. What becomes scarce when building gets cheap, and the one question every leader should ask."
 tags = ["AI", "Leadership", "Accountability", "Sleep test"]
 categories = ["Opinion"]
 series = ["Opinion"]
