@@ -2,9 +2,8 @@
 title: "Privacy Policy"
 date: 2024-11-16
 draft: false
+description: "How saurav.no handles your data: cookieless Cloudflare Web Analytics, no tracking cookies, and your rights under GDPR."
 ---
-
-# Privacy Policy
 
 **Last Updated:** November 16, 2024
 

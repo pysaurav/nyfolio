@@ -103,7 +103,7 @@ Menus:
 
 params:
   title: "Saurav Pandey"
-  description: "Technical Product Manager in Oslo. I build AI that runs in production, and write about who carries the risk when it fails. Author of the sleep test."
+  description: "Technical Product Manager in Oslo. I build AI that runs in production, and write about who carries the risk when it fails. Creator of the sleep test."
   # staticPath: ""  # The path to serve the static files from
   favicon: "/brand/favicon.svg"
 
@@ -130,7 +130,7 @@ params:
       jobTitle: "Technical Product Manager"
       email: "post@saurav.no"
       image: "/images/pp_11.jpeg"
-      bio: "Technical Product Manager at Izy in Oslo, building AI that runs in production and writing about who carries the risk when it fails. Author of the sleep test, first published in Dagens Perspektiv (2026). For three years I have maintained the production systems at Izy and built the computer vision and demand forecasting that run on top of them, live across Norwegian commercial buildings. Eight years across backend architecture, machine learning and technical product. Two published papers and formal study in AI ethics and fairness."
+      bio: "Technical Product Manager at Izy in Oslo, building AI that runs in production and writing about who carries the risk when it fails. Creator of the sleep test, first published in Dagens Perspektiv (2026). Maintains the production systems at Izy and builds the computer vision and demand forecasting that run on top of them, live across Norwegian commercial buildings. Eight years across backend architecture, machine learning and technical product. Two published papers and formal study in AI ethics and fairness."
       knowsLanguage:
         - "en"
         - "nb"

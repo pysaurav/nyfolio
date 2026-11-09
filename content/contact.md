@@ -1,7 +1,7 @@
 +++
 title = "Contact"
 slug = "contact"
-description = "Contact Saurav Pandey, Technical Product Manager at Izy in Oslo. Talks, workshops and conversations about taking AI from pilot to production. Email post@saurav.no."
+description = "Contact Saurav Pandey in Oslo about talks, workshops and taking AI from pilot to production. Email post@saurav.no, in English or Norwegian."
 +++
 
 ## Let's talk about the AI you want in production.

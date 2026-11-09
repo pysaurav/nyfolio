@@ -1,7 +1,8 @@
 +++ 
 date = "2024-06-24"
 title = "EU's AI Act 2024: Safeguarding Consumers or Restricting Tech Growth?"
-slug = "eu-ai-act-2024" 
+slug = "eu-ai-act-2024"
+seoTitle = "EU AI Act Explained: Risk Tiers, Duties, Penalties"
 description = "A working summary of the EU AI Act: risk tiers, prohibited practices, transparency duties, and penalties reaching EUR 35 million or 7% of global turnover."
 tags = ["AI", "Law", "future"]
 categories = ["Product"]

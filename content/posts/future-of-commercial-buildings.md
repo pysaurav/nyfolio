@@ -1,8 +1,9 @@
 +++ 
 date = "2024-05-13"
 title = "3 factors that are shaping the future of Norwegian commercial buildings"
-slug = "future-of-commercial-real-estate" 
-description = "Only 1,501 new commercial buildings went up in Norway in two decades. Regulation, technology and post-pandemic behaviour explain the stall better than build costs do."
+slug = "future-of-commercial-real-estate"
+seoTitle = "The Future of Norwegian Commercial Buildings"
+description = "Only 1,501 new commercial buildings went up in Norway in two decades. Regulation, technology and post-pandemic habits explain the stall better than costs."
 tags = ["AI", "culture", "future"]
 categories = ["Product"]
 series = ["Business", "Opinion"]
